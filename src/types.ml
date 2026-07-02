@@ -2,7 +2,7 @@
 (* definition of Qi element *) 
 type element_id = string
 
-(* 2+1 rule: tracks base and unlocked evolved *)
+(* affinity rule: tracks base and unlocked evolved *)
 type affinity_set ={
     base_affinities : element_id list; (* limit of 2*)
     evolved_affinity : element_id option; (*3rd slot, starts blank*)
