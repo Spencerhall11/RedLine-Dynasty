@@ -3,3 +3,4 @@
 [Ethics](ethics_system.md)
 [Mechanical_Math](mechanics.md)
 [Beast_Types](beast_types.md)
+[Nation_traits](nation_traits.md)
