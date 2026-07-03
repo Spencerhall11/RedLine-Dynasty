@@ -9,6 +9,7 @@
 ### Zou Species Manifest
  * Systemic Definition: Terrestrial mass-bearing platforms executing on mammalian ancestral hardware chassis templates.
  * Master Grid Traversal Parameters: Displays high data throughput and traversal efficiency across terrestrial cell nodes (Plains, Urban_Lane, Forest_Canopy). 
+ * Movement vectors experience severe algorithmic friction (up to a 90% speed penalty) when intersecting deep marine, oceanic, or fluid sewer coordinate cells.
 
 Tamer Payload Interface: Mounts natively onto the host's Distributed Hive-Mind Bus primarily as physical grounding blocks, armor/defense layer overrides, or structural weight proxies.
 
