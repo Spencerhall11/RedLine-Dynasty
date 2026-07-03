@@ -4,3 +4,5 @@
 [Mechanical_Math](mechanics.md)
 [Beast_Types](beast_types.md)
 [Nation_traits](nation_traits.md)
+[Qi_System](Qi_System.md)
+[Qi_Abilities](Qi_Abilities.md)
