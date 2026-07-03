@@ -10,8 +10,7 @@
  * Systemic Definition: Terrestrial mass-bearing platforms executing on mammalian ancestral hardware chassis templates.
  * Master Grid Traversal Parameters: Displays high data throughput and traversal efficiency across terrestrial cell nodes (Plains, Urban_Lane, Forest_Canopy). 
  * Movement vectors experience severe algorithmic friction (up to a 90% speed penalty) when intersecting deep marine, oceanic, or fluid sewer coordinate cells.
-
-Tamer Payload Interface: Mounts natively onto the host's Distributed Hive-Mind Bus primarily as physical grounding blocks, armor/defense layer overrides, or structural weight proxies.
+ * Tamer Payload Interface: Mounts natively onto the host's Distributed Hive-Mind Bus primarily as physical grounding blocks, armor/defense layer overrides, or structural weight proxies.
 
 #### 1. Iron-Flesh Tiger
 * **Physiological Mutation Tolerance** 0.55
@@ -66,5 +65,60 @@ Tamer Payload Interface: Mounts natively onto the host's Distributed Hive-Mind B
   * Synergy [Restraint Overload + Ice Qi]: "Cryo-Stasis Core"
     * Systemic Vibe: Absolute zero energy conversion. Drops all regional atomic vibration vectors to an explicit dead halt.
     * Macro Behavior: It sets up a localized clock-freeze zone on its coordinate cell. Any player strike team, trade caravan, or corporate unit routing onto its tile has their grand strategy tick loop completely frozen mid-stride, locking them in place for 3 macro-turns unless they consume high-tier Fire artifacts to overwrite the script.
+
+#### 2. Blood-Drinker Lion 
+* **Physiological Mutation Tolerance** 0.75
+* **Observed upper limits of physicality**
+  * Max Strength: 100
+  * Max Stamina: 65
+  * Max Speed: 75
+  * Max Intellegence: 60
+  * Max Wisdom: 30
+  * Max Creativity: 90
+  * Max restraint: 35
+* **Systemic Exception Flag [Stochastic Boundary Overflow]:**
+  * Vector 1 [The Frenzy Feedback Loop]: Trigger Condition: If target entity HP drops below 20%. The lion gains an un-throttled attack speed multiplier $(+\text{Random.int } 50)$ for the remainder of the engagement, at the cost of its own internal structural integrity (Armor rating).
+  * Vector 2 [The Apex Predator Overclock]: Trigger Condition: After securing a kill on an elite-tier target. The lion initiates a "Feast Subroutine," instantly refilling its health buffer and appending $+(\text{Random.int } 20)$ to Strength for the next 3 combat rounds.
+* **Behavior Matrix Configuration:**
+  * Low Intelligence Mode: Pack-hunting logic; targets the entity with the lowest current physical defense (Chassis_Integrity) on the grid.
+  * High Intelligence Mode: Tactical dismemberment logic; intentionally ignores "main" targets to cripple the movement subroutines of support-class entities (e.g., healers, logistics carriers) before engaging the primary threat.
+* **Environmental Spawn Weighting Tables:**
+  * *Industrial Cell Nodes: $50\%$ chance of [Standard Metal Qi], $24.5\%$ chance of [Standard Blood Qi], $24.5\%$ chance of [Standard Lightning Qi], $1\%$ chance of Random [Qi Variant].
+  * *Forest Cell Nodes: $50\%$ chance of [Standard Wood Qi], $24.5\%$ chance of [Standard Earth Qi], $24.5\%$ chance of [Standard Water Qi], $1\%$ chance of Random [Qi Variant].
+  * *Coastal Cell Nodes: $50\%$ chance of [Standard Water Qi], $24.5\%$ chance of [Standard Earth Qi], $24.5\%$ chance of [Standard Wind Qi], $1\%$ chance of Random [Qi Variant].
+  * *Desert Cell Nodes: $50\%$ chance of [Standard Fire Qi], $24.5\%$ chance of [Standard Earth Qi], $24.5\%$ chance of [Standard Wind Qi], $1\%$ chance of Random [Qi Variant].
+  * *Plains Cell Nodes: $50\%$ chance of [Standard Earth Qi], $24.5\%$ chance of [Standard Wind Qi], $24.5\%$ chance of [Standard Water Qi], $1\%$ chance of Random [Qi Variant].
+  * *Mountain Cell Nodes: $50\%$ chance of [Standard Wind Qi], $24.5\%$ chance of [Standard Earth Qi], $24.5\%$ chance of [Standard Lightning Qi], $1\%$ chance of Random [Qi Variant].
+  * *Mountain Peak Cell Nodes: $75\%$ chance of [Standard Lightning Qi], $12\%$ chance of [Standard Earth Qi], $12\%$ chance of [Standard Wind Qi], $1\%$ chance of Random [Qi Variant].
+  * *Blood Stained Battlefield Cell Nodes: $80\%$ chance of [Standard Earth Qi], $9.5\%$ chance of [Standard Metal Qi], $9.5\%$ chance of [Standard Death Qi], $1\%$ chance of Random [Qi Variant].
+  * *Phillipines Cell Nodes: $75\%$ chance of [Standard Sun Qi], $12\%$ chance of [Standard Water Qi], $12\%$ chance of [Standard Earth Qi], $1\%$ chance of Random [Qi Variant].
+  * *Technical Citadel Cell Nodes: $50\%$ chance of [Standard Lightning Qi], $24.5\%$ chance of [Standard Metal Qi], $24.5\%$ chance of [Standard Earth Qi], $1\%$ chance of Random [Qi Variant].
+* **Synergy Overclocks(Rolled Stats and Injected Elements):**
+  * Synergy [Creativity Overload + Blood Qi]: "Sanguine Sculptor"
+     * Systemic Vibe: Dynamically rearranges target's physical chassis into non-functional shapes.
+     * Macro Behavior: Attacks inflict [Chassis_Deformation]; permanently reduces target entity's movement speed and inventory capacity by 50% until repaired at a Tier-2 infirmary.
+  *  Synergy [Strength Overload + Fire Qi]: "Living Flare-Core"
+    * Systemic Vibe: Converts excess blood-heat into a blinding, aura-based thermal emitter.
+    * Macro Behavior: Units within 3 hexes take continuous thermal-burn damage. As the lion takes damage, its heat-signature grows, triggering "System Panics" in nearby sect power-grids due to thermodynamic overload.
+  * Synergy [Speed Overload + Lightning Qi]: "Volt-Claw Fencer"
+    * Systemic Vibe: Overclocks predatory reflex subroutines to sub-millisecond execution speeds via high-frequency shell.
+    * Macro Behavior: Forces a [First_Strike_Guarantee]; bypasses all defensive posture subroutines (Dodging/Shielding) to strike the target's internal Qi-vein mapping directly.
+  * Synergy [Strength Overload + Metal Qi]: "Gilded Guillotine"
+    * Systemic Vibe: Crystallizes claw-assemblies into self-sharpening alloys for maximum armor-piercing.
+    * Macro Behavior: Targets entities with the highest physical armor layers. Kinetic impacts ignore energy shields, forcefully chewing through structural defensive arrays and fracturing gear durability.
+  * Synergy [Restraint Overload + Earth Qi]: "Tectonic Tap-Root"
+    * Systemic Vibe: Drives beast's mass deep into the subterranean grid to lock movement.
+    * Macro Behavior: Transforms the lion into an immovable "Node-Lock." It leeches background Leyline density from adjacent nodes, forcing neighboring sects into economic/spirit-vein instability.
+  * Synergy [Stamina Overload + Wood Qi]: "Over-growth Loop"
+    * Systemic Vibe: Cell regeneration scripts enter an infinite, unchecked recursion loop.
+    * Macro Behavior: Consumes all organic resources on its tile to feed runaway mass. It transforms into a dense wall of iron-root, permanently blocking all road transit and caravan movement on that hex.
+  * Synergy [Speed Overload + Wind Qi]: "Vortex Engine"
+    * Systemic Vibe: Generates localized micro-barometric vacuum scripts around the lion's lung array.
+    * Macro Behavior: Spirals across map nodes, vacuuming up un-anchored loot drops and small resources into its inventory, becoming a high-priority "Loot-Pinata" for competing sects.
+  * Synergy [Restraint Overload + Ice Qi]: "Cryo-Stasis Core"
+    * Systemic Vibe: Absolute zero energy conversion; drops local atomic vibration to halt during strike contact.
+    * Macro Behavior: Imposes a 3-turn [Clock_Lock] on any enemy unit it strikes, forcing their turn-based processing loop to freeze until overwritten by high-tier Fire-element artifacts.
+
+
 
 
