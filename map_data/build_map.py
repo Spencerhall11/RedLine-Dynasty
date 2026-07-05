@@ -1,4 +1,4 @@
-### Convery natural earth shapefile into a CSV to match geography.ml types
+### Convert natural earth shapefile into a CSV to match geography.ml types
 ### run from map data folder python build_map.py
 ### outputs land into map_data/processed/*.csv 
 
@@ -39,7 +39,6 @@ unsubdivided = nations[~nations["nation_id"].isin(subdivided_nation_ids)].copy()
 unsubdivided["province_id"] = "WHOLE_" + unsubdivided["nation_id"]
 unsubdivided["province_name"] = unsubdivided["nation_name"]
 
-
 unsubdivided_proj = unsubdivided.to_crs("ESRI:54009")
 unsubdivided["area_sq_km"] = unsubdivided_proj.geometry.area / 1_000_000
 unsubdivided = unsubdivided[["province_id", "province_name", "nation_id", "area_sq_km", "geometry"]]
@@ -62,13 +61,13 @@ for idx, row in provinces.iterrows():
             adjacency[row["province_id"]].append(cand["province_id"])
 print("Adjacency computed")
 
-###Global H3 tile grid
+### Global H3 tile grid
 land_union = countries.union_all()
 res0_cells = h3.get_res0_cells()
 all_cells = set()
 for c in res0_cells:
     all_cells |= set(h3.cell_to_children(c, RES))
- 
+
 centers = {c: h3.cell_to_latlng(c) for c in all_cells}
 tile_points = gpd.GeoDataFrame(
     {"tile_id": list(centers.keys())},
@@ -78,24 +77,77 @@ tile_points = gpd.GeoDataFrame(
 land_tiles = tile_points[tile_points.within(land_union)].copy()
 print(f"{len(land_tiles)} land tiles generated")
 
-### assign the province polygon to the tile
-land_union = countries.union_all()
-res0_cells = h3.get_res0_cells()
-all_cells = set()
-for c in res0_cells:
-    all_cells |= set(h3.cell_to_children(c, RES))
- 
-centers = {c: h3.cell_to_latlng(c) for c in all_cells}
-tile_points = gpd.GeoDataFrame(
-    {"tile_id": list(centers.keys())},
-    geometry=[Point(lng, lat) for lat, lng in centers.values()],
-    crs=countries.crs,
+### assign each tile's province (point-in-polygon against real province shapes)
+tiles_with_province = gpd.sjoin(
+    land_tiles, provinces[["province_id", "geometry"]], how="left", predicate="within"
 )
-land_tiles = tile_points[tile_points.within(land_union)].copy()
-print(f"{len(land_tiles)} land tiles generated")
+unmatched_province = tiles_with_province["province_id"].isna().sum()
+print(f"{unmatched_province} tiles didn't fall inside any province (coastline rounding)")
 
-### NEED BIOME DATA
-NEED TO FILL IN BIOME DATA
+### biomes -- load the ecoregions dataset (this was referenced before but never loaded)
+ecoregions = gpd.read_file(
+    "Resolve_Ecoregions_4212368435134123772/Biomes_and_Ecoregions_2017.shp"
+)
+
+biome_mapping = {
+    "Boreal Forests/Taiga": "Forest_Cell",
+    "Temperate Broadleaf & Mixed Forests": "Forest_Cell",
+    "Temperate Conifer Forests": "Forest_Cell",
+    "Tropical & Subtropical Coniferous Forests": "Forest_Cell",
+    "Tropical & Subtropical Dry Broadleaf Forests": "Forest_Cell",
+    "Tropical & Subtropical Moist Broadleaf Forests": "Forest_Cell",
+    "Mediterranean Forests, Woodlands & Scrub": "Forest_Cell",
+    "Deserts & Xeric Shrublands": "Desert_Cell",
+    "Flooded Grasslands & Savannas": "Plains_Cell",
+    "Temperate Grasslands, Savannas & Shrublands": "Plains_Cell",
+    "Tropical & Subtropical Grasslands, Savannas & Shrublands": "Plains_Cell",
+    "Montane Grasslands & Shrublands": "Mountain_Cell",
+    "Mangroves": "Coastal_Cell",
+    "Tundra": "Ice_Cell",
+    "N/A": None,
+}
+ecoregions["game_biome"] = ecoregions["BIOME_NAME"].map(biome_mapping)
+ecoregions_clean = ecoregions[ecoregions["game_biome"].notna()].copy()
+print(f"{len(ecoregions)} total ecoregions -> {len(ecoregions_clean)} after dropping unmappable ones")
+print(ecoregions_clean["game_biome"].value_counts())
+
+### assign each tile's biome (point-in-polygon against real ecoregion shapes)
+# .to_crs() guards against the two datasets not sharing a CRS -- sjoin
+# silently gives WRONG matches if they don't line up, rather than erroring,
+# so this check matters even though it looks like a formality.
+#
+# .drop(columns="index_right") matters too: the FIRST sjoin (tiles-to-province,
+# above) already added a column called "index_right". A second sjoin refuses
+# to run if that column name is already taken -- this isn't optional cleanup,
+# the script crashes without it.
+ecoregions_matched_crs = ecoregions_clean.to_crs(tiles_with_province.crs)
+tiles_with_province_clean = tiles_with_province.drop(columns="index_right")
+tiles_with_biome = gpd.sjoin(
+    tiles_with_province_clean, ecoregions_matched_crs[["game_biome", "geometry"]],
+    how="left", predicate="within"
+)
+unmatched_biome = tiles_with_biome["game_biome"].isna().sum()
+print(f"{unmatched_biome} tiles didn't fall inside any ecoregion (coastline rounding / N/A zones)")
+
+### tiles_out -- this is the piece that was missing: nothing before this
+### point ever actually built it, even though later code depended on it.
+tiles_out = tiles_with_biome[["tile_id", "province_id", "game_biome"]].copy()
+tiles_out = tiles_out.rename(columns={"game_biome": "biome"})
+tiles_out["latitude"] = tiles_out["tile_id"].map(lambda c: h3.cell_to_latlng(c)[0])
+tiles_out["longitude"] = tiles_out["tile_id"].map(lambda c: h3.cell_to_latlng(c)[1])
+tiles_out = tiles_out.dropna(subset=["province_id"])
+
+# Arctic/Antarctic safety net
+polar_mask = tiles_out["biome"].isna() & (
+    (tiles_out["latitude"] >= 66.5) | (tiles_out["latitude"] <= -60)
+)
+tiles_out.loc[polar_mask, "biome"] = "Glacial_Cell"
+print(f"{polar_mask.sum()} biome-less tiles caught by the polar safety net -> Glacial_Cell")
+
+# Whatever's STILL missing a biome after the polar catch is genuine
+still_missing = tiles_out["biome"].isna().sum()
+print(f"{still_missing} tiles still biome-less after the polar catch (coastline noise) -- dropping")
+tiles_out = tiles_out.dropna(subset=["biome"])
 
 ### Population centers
 def classify_kind(row):
@@ -141,4 +193,3 @@ print("\nDone. Files written to processed/:")
 for f in ["nations.csv", "provinces.csv", "province_adjacency.csv", "tiles.csv", "population_centers.csv"]:
     path = f"processed/{f}"
     print(f"  {f}: {os.path.getsize(path):,} bytes")
- 

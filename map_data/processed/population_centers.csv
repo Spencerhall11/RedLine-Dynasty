@@ -1,0 +1,1252 @@
+center_id,center_name,kind,population,tile_id
+PLACE_0,Bombo,Town,75000,836accfffffffff
+PLACE_1,Fort Portal,Village,42670,836ac0fffffffff
+PLACE_2,Potenza,Town,69060,831e8afffffffff
+PLACE_3,Campobasso,Town,50762,831e81fffffffff
+PLACE_4,Aosta,Village,34062,831f9cfffffffff
+PLACE_5,Mariehamn,Village,10682,830883fffffffff
+PLACE_6,Ramallah,Village,24599,832db0fffffffff
+PLACE_7,Vatican City,Capital,832,831e80fffffffff
+PLACE_8,Poitier,Town,85960,831868fffffffff
+PLACE_9,Clermont-Ferrand,Town,233050,831f96fffffffff
+PLACE_10,Besançon,Town,128426,831f82fffffffff
+PLACE_11,Artigas Base,Village,60,83df02fffffffff
+PLACE_12,Chipata,Town,85963,839632fffffffff
+PLACE_13,Jinja,Town,301619,836acdfffffffff
+PLACE_14,Arua,Town,250000,836aeefffffffff
+PLACE_15,Mbale,Town,402368,837a4dfffffffff
+PLACE_16,Moroto,Village,371,837a4bfffffffff
+PLACE_17,Masaka,Town,65373,836acefffffffff
+PLACE_18,Mbarara,Town,83700,836ac3fffffffff
+PLACE_19,Otjiwarongo,Village,24815,83ac84fffffffff
+PLACE_20,Bologna,Town,488172,831ea0fffffffff
+PLACE_21,Cagliari,Town,291511,831e92fffffffff
+PLACE_22,Catanzaro,Town,95251,833f24fffffffff
+PLACE_23,Bari,Town,500577,831e88fffffffff
+PLACE_24,L'Aquila,Town,68503,831e80fffffffff
+PLACE_25,Ancona,Town,100507,831e85fffffffff
+PLACE_26,Perugia,Town,149125,831e84fffffffff
+PLACE_27,Trieste,Town,216035,831e12fffffffff
+PLACE_28,Trento,Town,107808,831ea4fffffffff
+PLACE_29,Fort-de-France,Town,253995,835e46fffffffff
+PLACE_30,Gifu,Town,412895,832e60fffffffff
+PLACE_31,Saint-Laurent-du-Maroni,Village,24287,835f11fffffffff
+PLACE_32,Caen,Town,190099,831860fffffffff
+PLACE_33,Nantes,Town,438537,831845fffffffff
+PLACE_34,Ajaccio,Town,54364,831eb2fffffffff
+PLACE_35,Montpellier,Town,327254,83396cfffffffff
+PLACE_36,Dijon,Town,169946,831f86fffffffff
+PLACE_37,Orléans,Town,217301,831fb6fffffffff
+PLACE_38,Rouen,Town,532559,831865fffffffff
+PLACE_39,Reims,Town,196565,831fb5fffffffff
+PLACE_40,Amiens,Town,143086,831949fffffffff
+PLACE_41,Nancy,Town,268976,831f84fffffffff
+PLACE_42,Basse-terre,Village,307,835e43fffffffff
+PLACE_43,Novi Sad,Town,225457,831e1bfffffffff
+PLACE_44,Banja Luka,Town,221738,831eadfffffffff
+PLACE_45,George Town,Village,4268,8345a3fffffffff
+PLACE_46,Grand Turk,Village,5801,834cabfffffffff
+PLACE_47,Douglas,Village,35854,831950fffffffff
+PLACE_48,San Marino,Capital,29579,831ea3fffffffff
+PLACE_49,Willemstad,Town,146813,836746fffffffff
+PLACE_50,Oranjestad,Town,68775,836773fffffffff
+PLACE_51,Vaduz,Capital,36281,831f8efffffffff
+PLACE_52,Capitan Arturo Prat Station,Village,41,83df06fffffffff
+PLACE_53,Marambio Base,Village,150,83df14fffffffff
+PLACE_54,Zucchelli Station,Village,80,83ed43fffffffff
+PLACE_55,Rothera Station,Village,130,83e89cfffffffff
+PLACE_56,Palmer Station,Village,46,83df35fffffffff
+PLACE_57,Base Presidente Montalva,Village,150,83df02fffffffff
+PLACE_58,Carlini Base,Village,60,83df02fffffffff
+PLACE_59,King Sejong Station,Village,90,83df02fffffffff
+PLACE_60,Great Wall Station,Village,40,83df02fffffffff
+PLACE_61,Escudero Base,Village,20,83df02fffffffff
+PLACE_62,Elephant Island,Village,6,83df02fffffffff
+PLACE_63,Scott Base,Village,85,83ed49fffffffff
+PLACE_64,McMurdo Station,Village,1000,83ed49fffffffff
+PLACE_65,Zhongshan Station,Village,60,83f099fffffffff
+PLACE_66,Vostok Station,Village,25,83f1aefffffffff
+PLACE_67,Peter I Island,Village,1,83e98dfffffffff
+PLACE_68,Mirny Station,Village,169,83e466fffffffff
+PLACE_69,Mawson Station,Village,60,83e128fffffffff
+PLACE_70,Davis Station,Village,70,83f098fffffffff
+PLACE_71,Concordia Research Station,Village,30,83ece9fffffffff
+PLACE_72,Casey Station,Village,200,83e572fffffffff
+PLACE_73,Amundsen–Scott South Pole Station,Village,200,83f293fffffffff
+PLACE_74,Wasa Station,Village,10,83eea3fffffffff
+PLACE_75,Troll Station,Village,44,83e74dfffffffff
+PLACE_76,Svea Station,Village,10,83eea4fffffffff
+PLACE_77,Novolazarevskaya Station,Village,70,83ee85fffffffff
+PLACE_78,Neumayer Station III,Village,40,83ee86fffffffff
+PLACE_79,Maitri Station,Village,65,83e743fffffffff
+PLACE_80,Halley Station,Village,70,83ee33fffffffff
+PLACE_81,Belgrano II Base,Village,100,83ee35fffffffff
+PLACE_82,Sobral Base,Village,40,83ef1dfffffffff
+PLACE_83,Aboa Station,Village,18,83ef8bfffffffff
+PLACE_84,San Martín Base,Village,20,83e891fffffffff
+PLACE_85,Gen. O'Higgins Base,Village,44,83df33fffffffff
+PLACE_86,Esperanza Base,Village,250,83df14fffffffff
+PLACE_87,Orcadas Station,Village,45,83df81fffffffff
+PLACE_88,Signy Research Station,Village,8,83df81fffffffff
+PLACE_89,Dumont d'Urville Station,Village,120,83eca8fffffffff
+PLACE_90,Showa Station,Village,60,83e706fffffffff
+PLACE_91,Gibraltar,Town,187083,83391afffffffff
+PLACE_92,Lobamba,Village,9782,83bcd4fffffffff
+PLACE_93,Edinburgh,Town,504966,831972fffffffff
+PLACE_94,Cardiff,Town,861400,831958fffffffff
+PLACE_95,Longyearbyen,Village,1232,830153fffffffff
+PLACE_96,Luxembourg,Capital,107260,831fa3fffffffff
+PLACE_97,Turin,City,1652000,831f98fffffffff
+PLACE_98,Nouméa,Town,93060,839f55fffffffff
+PLACE_99,Matsuyama,Town,533541,834b65fffffffff
+PLACE_100,Rennes,Town,209375,831863fffffffff
+PLACE_101,Toulouse,Town,847000,833960fffffffff
+PLACE_102,Limoges,Town,152199,831869fffffffff
+PLACE_103,Lille,City,1044000,83194dfffffffff
+PLACE_104,Strasbourg,Town,439972,831f85fffffffff
+PLACE_105,Batumi,Town,155542,832c21fffffffff
+PLACE_106,Funchal,Town,204767,833466fffffffff
+PLACE_107,El Fasher,Town,252609,836b08fffffffff
+PLACE_108,Keetmanshoop,Village,18039,83ad81fffffffff
+PLACE_109,Swakopmund,Village,29491,83ac12fffffffff
+PLACE_110,Genoa,Town,647497,831f9bfffffffff
+PLACE_111,Sukhumi,Town,81546,832d52fffffffff
+PLACE_112,Palikir,Capital,4645,837709fffffffff
+PLACE_113,Majuro,Capital,25400,835b70fffffffff
+PLACE_114,Agana,Town,122411,834f49fffffffff
+PLACE_115,Funafuti,Capital,4749,839a4afffffffff
+PLACE_116,Melekeok,Capital,7026,83731bfffffffff
+PLACE_117,Bir Lehlou,Village,500,835520fffffffff
+PLACE_118,Monaco,Capital,36371,833969fffffffff
+PLACE_119,Tarawa,Capital,28802,837ee2fffffffff
+PLACE_120,Moroni,Capital,128698,83a335fffffffff
+PLACE_121,Macau,Town,568700,834103fffffffff
+PLACE_122,Andorra,Capital,53998,833962fffffffff
+PLACE_123,San Bernardino,City,1745000,8329a0fffffffff
+PLACE_124,Bridgeport,City,1018000,832a10fffffffff
+PLACE_125,Rochester,Town,755000,832b99fffffffff
+PLACE_126,Manchester,City,2230000,831951fffffffff
+PLACE_127,Gujranwala,City,1513000,833d36fffffffff
+PLACE_128,Incheon,City,2550000,8330e0fffffffff
+PLACE_129,Benin City,City,1190000,83588afffffffff
+PLACE_130,Xiamen,City,2519000,8341a5fffffffff
+PLACE_131,Nanchong,City,2174000,8340f5fffffffff
+PLACE_132,Neijiang,City,1466000,8340e0fffffffff
+PLACE_133,Nanyang,City,1944000,834084fffffffff
+PLACE_134,Jinxi,City,2426000,833035fffffffff
+PLACE_135,Yantai,City,2116000,833011fffffffff
+PLACE_136,Zaozhuang,City,2145000,8330b1fffffffff
+PLACE_137,Suzhou,City,1650000,833098fffffffff
+PLACE_138,Xuzhou,City,2091000,8330b0fffffffff
+PLACE_139,Wuxi,City,1749000,833098fffffffff
+PLACE_140,Jilin,City,2396000,833170fffffffff
+PLACE_141,Chandigarh,Town,979000,833d14fffffffff
+PLACE_142,Jammu,Town,791000,833d36fffffffff
+PLACE_143,Sholapur,City,1057000,836085fffffffff
+PLACE_144,Aurangabad,City,1113000,83609cfffffffff
+PLACE_145,Nasik,City,1473000,836099fffffffff
+PLACE_146,Dispur,Village,16140,833ce1fffffffff
+PLACE_147,Jullundur,Town,855000,833d32fffffffff
+PLACE_148,Allahabad,City,1201000,833d8bfffffffff
+PLACE_149,Moradabad,Town,787000,833dacfffffffff
+PLACE_150,Ghaziabad,City,1341000,833da1fffffffff
+PLACE_151,Agra,City,1592000,833d85fffffffff
+PLACE_152,Aligarh,Town,805000,833daefffffffff
+PLACE_153,Meerut,City,1398000,833dacfffffffff
+PLACE_154,Dhanbad,City,1246000,833ca9fffffffff
+PLACE_155,Gwalior,Town,978000,833d80fffffffff
+PLACE_156,Vadodara,City,1756000,8342cafffffffff
+PLACE_157,Rajkot,City,1260000,8342c3fffffffff
+PLACE_158,Durazno,Village,34037,83c2c2fffffffff
+PLACE_159,International Falls,Village,15240,832708fffffffff
+PLACE_160,St.  Paul,Town,734854,832752fffffffff
+PLACE_161,Billings,Town,104552,83279efffffffff
+PLACE_162,Great Falls,Town,66558,832790fffffffff
+PLACE_163,Missoula,Town,72856,832898fffffffff
+PLACE_164,Minot,Village,39439,8327adfffffffff
+PLACE_165,Fargo,Town,162842,832626fffffffff
+PLACE_166,Hilo,Town,52391,835d11fffffffff
+PLACE_167,Olympia,Town,156984,8328d5fffffffff
+PLACE_168,Spokane,Town,347705,8312dbfffffffff
+PLACE_169,Vancouver,Town,525802,8328f0fffffffff
+PLACE_170,Flagstaff,Town,63993,8329b2fffffffff
+PLACE_171,Tucson,Town,823000,8348e8fffffffff
+PLACE_172,Santa Barbara,Town,181632,832912fffffffff
+PLACE_173,Fresno,Town,616353,8329abfffffffff
+PLACE_174,Eureka,Village,42398,832802fffffffff
+PLACE_175,Colorado Springs,Town,493654,83268cfffffffff
+PLACE_176,Reno,Town,328585,832989fffffffff
+PLACE_177,Elko,Village,19252,8328a6fffffffff
+PLACE_178,Albuquerque,Town,898642,8348d8fffffffff
+PLACE_179,Salem,Town,229010,8328f4fffffffff
+PLACE_180,Casper,Town,60791,8326a2fffffffff
+PLACE_181,Topeka,Town,132091,8326e5fffffffff
+PLACE_182,Kansas City,City,1469000,832656fffffffff
+PLACE_183,Tulsa,Town,946962,8326eefffffffff
+PLACE_184,Sioux Falls,Town,155724,832600fffffffff
+PLACE_185,Shreveport,Town,248053,83444cfffffffff
+PLACE_186,Baton Rouge,Town,422072,834440fffffffff
+PLACE_187,Ft.  Worth,City,1440454,8326cbfffffffff
+PLACE_188,Corpus Christi,Town,277454,834895fffffffff
+PLACE_189,Austin,City,1161000,83489efffffffff
+PLACE_190,Amarillo,Town,181766,8326d1fffffffff
+PLACE_191,El Paso,Town,753000,8348c6fffffffff
+PLACE_192,Laredo,Town,434768,834880fffffffff
+PLACE_193,Mérida,Town,345489,836629fffffffff
+PLACE_194,Burlington,Town,93807,832b8cfffffffff
+PLACE_195,Montgomery,Town,198325,8344ecfffffffff
+PLACE_196,Tallahassee,Town,221222,8344e2fffffffff
+PLACE_197,Orlando,City,1350000,8344a9fffffffff
+PLACE_198,Jacksonville,Town,988000,8344f0fffffffff
+PLACE_199,Savannah,Town,180187,8344d5fffffffff
+PLACE_200,Columbia,Town,398093,8344defffffffff
+PLACE_201,Indianapolis,City,1436000,832661fffffffff
+PLACE_202,Wilmington,Town,161560,832ad0fffffffff
+PLACE_203,Knoxville,Town,655400,8344cafffffffff
+PLACE_204,Richmond,Town,912000,832a8dfffffffff
+PLACE_205,Charleston,Town,123799,832a9cfffffffff
+PLACE_206,Baltimore,City,2255000,832aa8fffffffff
+PLACE_207,Syracuse,Town,662577,832b8afffffffff
+PLACE_208,Puerto Ayacucho,Town,52526,836663fffffffff
+PLACE_209,Port-of-Spain,Capital,294934,835f59fffffffff
+PLACE_210,Augusta,Village,24042,832b1afffffffff
+PLACE_211,Sault Ste. Marie,Town,83805,832763fffffffff
+PLACE_212,Atakpamé,Town,80683,8358b3fffffffff
+PLACE_213,Sousse,Town,327004,83386afffffffff
+PLACE_214,Taizz,Town,751000,8352f0fffffffff
+PLACE_215,Sitka,Village,8931,831d24fffffffff
+PLACE_216,Lviv,Town,803880,831e76fffffffff
+PLACE_217,Odessa,Town,991000,831e5dfffffffff
+PLACE_218,Zhytomyr,Town,282192,831e62fffffffff
+PLACE_219,Dnipro,City,1050000,832d64fffffffff
+PLACE_220,Donetsk,Town,988000,832d60fffffffff
+PLACE_221,Kharkiv,City,1461000,831196fffffffff
+PLACE_222,Türkmenbaşy,Town,68292,832cecfffffffff
+PLACE_223,Bukhara,Town,319476,832198fffffffff
+PLACE_224,Nukus,Town,230006,832184fffffffff
+PLACE_225,Türkmenabat,Town,234817,83219efffffffff
+PLACE_226,Mary,Town,178708,83436cfffffffff
+PLACE_227,Andijan,Town,650000,8320a8fffffffff
+PLACE_228,Haiphong,City,1969000,834142fffffffff
+PLACE_229,Da Nang,City,1000000,834164fffffffff
+PLACE_230,Kabwe,Town,188979,839605fffffffff
+PLACE_231,Mufulira,Town,153624,839603fffffffff
+PLACE_232,Kitwe,Town,404901,839601fffffffff
+PLACE_233,Livingstone,Town,165480,839751fffffffff
+PLACE_234,Chitungwiza,Town,340360,839719fffffffff
+PLACE_235,Douala,City,1906000,8382d2fffffffff
+PLACE_236,Birmingham,City,2285000,83195cfffffffff
+PLACE_237,Belfast,Town,450406,831952fffffffff
+PLACE_238,İzmir,City,2587000,833f66fffffffff
+PLACE_239,Bursa,City,1492000,832d34fffffffff
+PLACE_240,Samsun,Town,609339,832d03fffffffff
+PLACE_241,Konya,Town,919000,833f6dfffffffff
+PLACE_242,Adana,City,1293000,832d12fffffffff
+PLACE_243,Gulu,Town,146858,836ae8fffffffff
+PLACE_244,Kigali,Capital,860000,836ad8fffffffff
+PLACE_245,Cottica,Village,29210,835f15fffffffff
+PLACE_246,Córdoba,Town,321376,83391dfffffffff
+PLACE_247,Niamey,Town,232555,835803fffffffff
+PLACE_248,Tahoua,Town,115956,835804fffffffff
+PLACE_249,Constanța,Town,303399,831ee9fffffffff
+PLACE_250,Luleå,Village,48638,8308c6fffffffff
+PLACE_251,Sundsvall,Town,73389,8308a8fffffffff
+PLACE_252,Iași,Town,325914,831e55fffffffff
+PLACE_253,Surat Thani,Town,157627,836430fffffffff
+PLACE_254,Chiang Mai,Town,397211,836482fffffffff
+PLACE_255,Nakhon Ratchasima,Town,334984,83659bfffffffff
+PLACE_256,Mbabane,Capital,90138,83bcd4fffffffff
+PLACE_257,Piura,Town,396932,838f09fffffffff
+PLACE_258,Arequipa,Town,815000,83b335fffffffff
+PLACE_259,Chimbote,Town,349846,838f5efffffffff
+PLACE_260,Pucallpa,Town,310750,838f4cfffffffff
+PLACE_261,Iquitos,Town,458729,838a6dfffffffff
+PLACE_262,Huancayo,Town,412733,838e60fffffffff
+PLACE_263,Ciudad del Este,Town,320872,83a95efffffffff
+PLACE_264,Ponta Delgada,Town,61526,833426fffffffff
+PLACE_265,Vigo,Town,378952,833920fffffffff
+PLACE_266,Bilbao,Town,875552,83184bfffffffff
+PLACE_267,Kaolack,Town,277812,83541afffffffff
+PLACE_268,Kaédi,Village,21656,835403fffffffff
+PLACE_269,Geneina,Town,162981,836b02fffffffff
+PLACE_270,Medina,City,1010000,835311fffffffff
+PLACE_271,Tabuk,Town,547957,835336fffffffff
+PLACE_272,Juba,Town,111975,836a50fffffffff
+PLACE_273,Malakal,Town,160765,836b5bfffffffff
+PLACE_274,Omdurman,City,2395159,836b6efffffffff
+PLACE_275,Al-Ubayyid,Town,393311,836b42fffffffff
+PLACE_276,The Hague,City,1406000,83196bfffffffff
+PLACE_277,Kristiansand,Town,63814,83099efffffffff
+PLACE_278,Ljubljana,Capital,314807,831e12fffffffff
+PLACE_279,Bratislava,Capital,423737,831e02fffffffff
+PLACE_280,Hammerfest,Village,10000,830120fffffffff
+PLACE_281,Doha,Capital,1450000,83536bfffffffff
+PLACE_282,Quetta,Town,768000,834275fffffffff
+PLACE_283,Larkana,Town,364033,834254fffffffff
+PLACE_284,Springbok,Village,10438,83ad12fffffffff
+PLACE_285,Upington,Town,71373,83adb5fffffffff
+PLACE_286,Worcester,Town,127597,83bc6bfffffffff
+PLACE_287,George,Town,174582,83bc45fffffffff
+PLACE_288,Tete,Town,129316,83971afffffffff
+PLACE_289,Pemba,Town,110643,839794fffffffff
+PLACE_290,Nampula,Town,388526,8397b1fffffffff
+PLACE_291,Welkom,Town,431944,83bceafffffffff
+PLACE_292,Xai-Xai,Town,128805,83bc8bfffffffff
+PLACE_293,Goroka,Village,39699,839c8afffffffff
+PLACE_294,Mt.  Hagen,Town,59064,8372dafffffffff
+PLACE_295,Rabaul,Village,8074,83779afffffffff
+PLACE_296,Lae,Town,131052,839c9dfffffffff
+PLACE_297,David,Town,110037,8366b5fffffffff
+PLACE_298,Oujda,Town,409391,833804fffffffff
+PLACE_299,Safi,Town,353476,833980fffffffff
+PLACE_300,Podgorica,Capital,145850,831ef2fffffffff
+PLACE_301,Quelimane,Town,188964,8397a5fffffffff
+PLACE_302,East London,Town,338627,83bc09fffffffff
+PLACE_303,Middelburg,Village,18164,83bc51fffffffff
+PLACE_304,Nalchik,Town,307866,832c2dfffffffff
+PLACE_305,Stavropol,Town,363064,832d51fffffffff
+PLACE_306,Ugolnye Kopi,Village,3367,830d93fffffffff
+PLACE_307,Kaliningrad,Town,434954,831f73fffffffff
+PLACE_308,Pskov,Town,201990,831132fffffffff
+PLACE_309,Bryansk,Town,427236,8311b1fffffffff
+PLACE_310,Smolensk,Town,320991,8311a6fffffffff
+PLACE_311,Petrozavodsk,Town,265025,83110efffffffff
+PLACE_312,Tver,Town,400212,8311a8fffffffff
+PLACE_313,Vologda,Town,294889,831035fffffffff
+PLACE_314,Yaroslavl,Town,606730,831036fffffffff
+PLACE_315,Rostov,City,1052000,832d44fffffffff
+PLACE_316,Sochi,Town,327608,832d56fffffffff
+PLACE_317,Krasnodar,Town,649851,832d73fffffffff
+PLACE_318,Penza,Town,512602,8310a2fffffffff
+PLACE_319,Ryazan,Town,520173,83118efffffffff
+PLACE_320,Voronezh,Town,844000,83119efffffffff
+PLACE_321,Magnitogorsk,Town,413351,8310d2fffffffff
+PLACE_322,Chelyabinsk,City,1091000,8310defffffffff
+PLACE_323,Vorkuta,Town,80039,83104dfffffffff
+PLACE_324,Kirov,Town,457437,831018fffffffff
+PLACE_325,Nizhny Tagil,Town,381116,8310c0fffffffff
+PLACE_326,Astrakhan,Town,502533,832c60fffffffff
+PLACE_327,Orenburg,Town,550204,832126fffffffff
+PLACE_328,Saratov,Town,843000,8310b3fffffffff
+PLACE_329,Ulyanovsk,Town,640680,831085fffffffff
+PLACE_330,Omsk,City,1135000,832141fffffffff
+PLACE_331,Tyumen,Town,519119,8310d9fffffffff
+PLACE_332,Novokuznetsk,Town,539616,830b96fffffffff
+PLACE_333,Kemerovo,Town,477090,830b95fffffffff
+PLACE_334,Grozny,Town,226100,832c29fffffffff
+PLACE_335,Kandy,Town,111701,836111fffffffff
+PLACE_336,Sri Jayawardenepura Kotte,Town,115826,83611cfffffffff
+PLACE_337,Daejeon,City,1468000,8330e3fffffffff
+PLACE_338,Gwangju,City,1440000,8330c6fffffffff
+PLACE_339,Busan,City,3480000,8330c1fffffffff
+PLACE_340,Zamboanga,Town,773000,836856fffffffff
+PLACE_341,Laoag,Town,207048,83696cfffffffff
+PLACE_342,Baguio,Town,447824,83696afffffffff
+PLACE_343,General Santos,Town,950530,83685efffffffff
+PLACE_344,Ust-Ilimsk,Town,100271,830a9cfffffffff
+PLACE_345,Angarsk,Town,243158,832571fffffffff
+PLACE_346,Abakan,Town,167289,832526fffffffff
+PLACE_347,Norilsk,Town,165873,830a74fffffffff
+PLACE_348,Khatanga,Village,3205,830a5dfffffffff
+PLACE_349,Kyzyl,Town,108240,832500fffffffff
+PLACE_350,Ulan-Ude,Town,360278,832541fffffffff
+PLACE_351,Blagoveshchensk,Town,221296,8314aefffffffff
+PLACE_352,Bukachacha,Village,3372,8315aefffffffff
+PLACE_353,Dalnegorsk,Village,8123,832ec1fffffffff
+PLACE_354,Ambarchik,Village,0,8304c4fffffffff
+PLACE_355,Batagay,Village,4266,8304b5fffffffff
+PLACE_356,Chokurdakh,Village,2506,8304adfffffffff
+PLACE_357,Ust-Nera,Village,9148,83049cfffffffff
+PLACE_358,Lensk,Village,25589,831529fffffffff
+PLACE_359,Aldan,Village,24426,83142cfffffffff
+PLACE_360,Mirny,Village,40308,830adafffffffff
+PLACE_361,Zhigansk,Village,3237,830593fffffffff
+PLACE_362,Okhotsk,Village,5570,83144cfffffffff
+PLACE_363,Khabarovsk,Town,579000,8314d6fffffffff
+PLACE_364,Okha,Village,26560,8317b6fffffffff
+PLACE_365,Yuzhno Sakhalinsk,Town,176484,832e88fffffffff
+PLACE_366,Mexicali,Town,885000,83485bfffffffff
+PLACE_367,La Paz,Town,189767,83482afffffffff
+PLACE_368,Torreón,City,1144000,834812fffffffff
+PLACE_369,Culiacán,Town,809000,834802fffffffff
+PLACE_370,Nogales,Town,178097,8348ecfffffffff
+PLACE_371,Hermosillo,Town,595811,834856fffffffff
+PLACE_372,Guaymas,Town,103449,83480bfffffffff
+PLACE_373,San Luis Potosí,Town,992000,83499dfffffffff
+PLACE_374,Matamoros,Town,538785,8348b2fffffffff
+PLACE_375,Nuevo Laredo,Town,349550,834880fffffffff
+PLACE_376,Colima,Town,223287,8349a8fffffffff
+PLACE_377,Campeche,Town,205212,834576fffffffff
+PLACE_378,Oaxaca,Town,530728,836d32fffffffff
+PLACE_379,León,City,1488000,83498efffffffff
+PLACE_380,Maiduguri,Town,896000,835851fffffffff
+PLACE_381,Port Harcourt,City,1020000,8382d8fffffffff
+PLACE_382,Makurdi,Town,292645,8358f3fffffffff
+PLACE_383,Ibadan,City,2628000,835883fffffffff
+PLACE_384,Ogbomosho,Town,951000,835881fffffffff
+PLACE_385,Warri,Town,830106,8382dbfffffffff
+PLACE_386,Kaduna,City,1442000,83581bfffffffff
+PLACE_387,Gdańsk,Town,740000,831f09fffffffff
+PLACE_388,Kraków,Town,756000,831e2efffffffff
+PLACE_389,Dalandzadgad,Village,15093,83240afffffffff
+PLACE_390,Wonsan,Town,329207,833158fffffffff
+PLACE_391,Sinuiju,Town,288112,83302efffffffff
+PLACE_392,Dund-Us,Village,30500,832512fffffffff
+PLACE_393,Choibalsan,Village,33376,83246dfffffffff
+PLACE_394,Lüderitz,Village,15137,83ac36fffffffff
+PLACE_395,Walvis Bay,Town,52058,83ac12fffffffff
+PLACE_396,Mwanza,Town,493944,83969bfffffffff
+PLACE_397,Morogoro,Town,250902,837b4dfffffffff
+PLACE_398,Dodoma,Town,218269,8396b3fffffffff
+PLACE_399,Arusha,Town,341136,839692fffffffff
+PLACE_400,Bern,Capital,275329,831f83fffffffff
+PLACE_401,Malmö,Town,269349,831f05fffffffff
+PLACE_402,Laayoune,Town,188084,835530fffffffff
+PLACE_403,Ternate,Town,187521,837390fffffffff
+PLACE_404,Ambon,Town,355596,839541fffffffff
+PLACE_405,Raba,Town,106101,839513fffffffff
+PLACE_406,Jayapura,Town,169341,8372f3fffffffff
+PLACE_407,Florence,City,1500000,831ea2fffffffff
+PLACE_408,Catania,Town,674542,833f35fffffffff
+PLACE_409,Pristina,Capital,465186,831ef3fffffffff
+PLACE_410,Meru,Village,47226,837a40fffffffff
+PLACE_411,Eldoret,Town,353381,837a4cfffffffff
+PLACE_412,Banda Aceh,Town,513698,836553fffffffff
+PLACE_413,George Town,City,2500000,83651dfffffffff
+PLACE_414,Zhangye,Town,230728,8324abfffffffff
+PLACE_415,Wuwei,Town,493092,832489fffffffff
+PLACE_416,Dunhuang,Town,140094,8324a6fffffffff
+PLACE_417,Tianshui,City,1225000,8340d6fffffffff
+PLACE_418,Dulan,Village,100,83249cfffffffff
+PLACE_419,Golmud,Town,107092,832494fffffffff
+PLACE_420,Yulin,City,1127000,834025fffffffff
+PLACE_421,Bose,Town,175282,83402dfffffffff
+PLACE_422,Wuzhou,Town,442315,834024fffffffff
+PLACE_423,Liupanshui,City,1221000,834009fffffffff
+PLACE_424,Quanzhou,City,1463000,8341a0fffffffff
+PLACE_425,Hefei,City,2035000,833096fffffffff
+PLACE_426,Suzhou,City,1964000,8330b3fffffffff
+PLACE_427,Zhanjiang,City,1590000,834109fffffffff
+PLACE_428,Shaoguan,Town,720266,83411afffffffff
+PLACE_429,Balikpapan,Town,445905,83688afffffffff
+PLACE_430,Kuching,Town,570407,838c96fffffffff
+PLACE_431,Antsiranana,Town,82937,83a376fffffffff
+PLACE_432,Fianarantsoa,Town,184184,83a214fffffffff
+PLACE_433,Mahajanga,Town,154657,83a31dfffffffff
+PLACE_434,Toliara,Town,115319,83a399fffffffff
+PLACE_435,Surakarta,Town,555308,838d8cfffffffff
+PLACE_436,Bandar Lampung,Town,865000,838cadfffffffff
+PLACE_437,Tanjung Pandan,Town,62374,838c85fffffffff
+PLACE_438,Malang,Town,805000,838d85fffffffff
+PLACE_439,Kupang,Town,282396,839404fffffffff
+PLACE_440,Parepare,Town,87776,839505fffffffff
+PLACE_441,Cuenca,Town,286878,838f76fffffffff
+PLACE_442,Santa Cruz,Village,11262,836c59fffffffff
+PLACE_443,Limón,Town,85001,83679bfffffffff
+PLACE_444,Santiago de Cuba,Town,555865,834c9afffffffff
+PLACE_445,Santiago,City,1550753,834c89fffffffff
+PLACE_446,Manizales,Town,375848,8366e6fffffffff
+PLACE_447,Pasto,Town,382236,8366d5fffffffff
+PLACE_448,Barranquilla,City,1798000,836622fffffffff
+PLACE_449,Roseau,Capital,23336,835e42fffffffff
+PLACE_450,Mbandaka,Town,274996,836a96fffffffff
+PLACE_451,Moundou,Town,156705,836bb0fffffffff
+PLACE_452,Suez,Town,508335,833e63fffffffff
+PLACE_453,Bur Said,Town,623864,833e65fffffffff
+PLACE_454,El Faiyum,Town,316772,833e62fffffffff
+PLACE_455,Aswan,Town,313442,833e58fffffffff
+PLACE_456,Asyut,Town,420585,833e46fffffffff
+PLACE_457,Kisangani,Town,578470,836a8dfffffffff
+PLACE_458,Assab,Town,105496,8352f2fffffffff
+PLACE_459,Djibouti,Capital,923000,8352d4fffffffff
+PLACE_460,Dresden,Town,617515,831f1bfffffffff
+PLACE_461,Xigaze,Town,80000,833c0cfffffffff
+PLACE_462,Shache,Town,851374,8320d6fffffffff
+PLACE_463,Yining,Town,542507,8320eefffffffff
+PLACE_464,Altay,Town,142000,83204bfffffffff
+PLACE_465,Putrajaya,Town,67964,836505fffffffff
+PLACE_466,Shizuishan,Town,136570,8324c0fffffffff
+PLACE_467,Yulin,Town,155960,8324c8fffffffff
+PLACE_468,Ankang,City,1100000,8340abfffffffff
+PLACE_469,Houma,Town,102400,83409efffffffff
+PLACE_470,Yueyang,Town,826000,83418bfffffffff
+PLACE_471,Hengyang,City,1016000,834032fffffffff
+PLACE_472,Mianyang,City,1396000,8340c4fffffffff
+PLACE_473,Xichang,Town,379993,834050fffffffff
+PLACE_474,Baoshan,City,1000000,834041fffffffff
+PLACE_475,Gejiu,Town,149105,834066fffffffff
+PLACE_476,Shijiazhuang,City,2417000,833182fffffffff
+PLACE_477,Handan,City,1631000,83319efffffffff
+PLACE_478,Anshan,City,1639000,833020fffffffff
+PLACE_479,Dalian,City,3167000,833006fffffffff
+PLACE_480,Qingdao,City,2866000,8330acfffffffff
+PLACE_481,Linyi,City,2082000,8330a2fffffffff
+PLACE_482,Huaiyin,City,1264000,833086fffffffff
+PLACE_483,Wenzhou,City,2350000,8341b2fffffffff
+PLACE_484,Ningbo,City,1923000,834b34fffffffff
+PLACE_485,Fukuoka,City,2792000,8330d9fffffffff
+PLACE_486,Miyazaki,Town,324384,834b62fffffffff
+PLACE_487,Naha,Town,905238,834a26fffffffff
+PLACE_488,Kōchi,Town,335570,834b61fffffffff
+PLACE_489,Gorontalo,Town,365497,8368c3fffffffff
+PLACE_490,Tongliao,Town,884000,83310efffffffff
+PLACE_491,Hohhot,City,1726000,8331b4fffffffff
+PLACE_492,Chifeng,City,1277000,83311efffffffff
+PLACE_493,Ulan Hot,Town,241894,83312efffffffff
+PLACE_494,Hailar,Town,231171,83159cfffffffff
+PLACE_495,Jiamusi,City,1020000,83149cfffffffff
+PLACE_496,Bei'an,Town,154936,8314b1fffffffff
+PLACE_497,Daqing,City,1693000,8314b2fffffffff
+PLACE_498,Jixi,Town,965000,83149afffffffff
+PLACE_499,Nagoya,City,3230000,832e60fffffffff
+PLACE_500,Nagano,Town,594311,832e75fffffffff
+PLACE_501,Kushiro,Town,198566,832e13fffffffff
+PLACE_502,Hakodate,Town,302984,832e19fffffffff
+PLACE_503,Kyoto,City,1805000,832e61fffffffff
+PLACE_504,Sendai,City,2250000,832e2bfffffffff
+PLACE_505,Sakata,Town,100446,832e0dfffffffff
+PLACE_506,Bandundu,Town,118211,83839cfffffffff
+PLACE_507,Kananga,Town,765000,8396ccfffffffff
+PLACE_508,Kasongo,Town,63000,8396d1fffffffff
+PLACE_509,Mbuji-Mayi,City,1295000,8396c1fffffffff
+PLACE_510,Kalemie,Town,206257,8396f2fffffffff
+PLACE_511,Butembo,Town,286403,836ac2fffffffff
+PLACE_512,Goma,Town,144124,836adefffffffff
+PLACE_513,Mzuzu,Town,110201,83978bfffffffff
+PLACE_514,Blantyre,Town,584877,8397a8fffffffff
+PLACE_515,Quetzaltenango,Town,575263,836d28fffffffff
+PLACE_516,Banjul,Capital,43094,8354a9fffffffff
+PLACE_517,Faridabad,City,1394000,833da1fffffffff
+PLACE_518,Srinagar,City,1140000,833d34fffffffff
+PLACE_519,Vijayawada,City,1137000,83619afffffffff
+PLACE_520,Thiruvananthapuram,Town,954000,836026fffffffff
+PLACE_521,Kochi,City,1519000,836004fffffffff
+PLACE_522,Cuttack,Town,580000,833c8efffffffff
+PLACE_523,Hubballi,Town,890000,8360a8fffffffff
+PLACE_524,Mangaluru,Town,776632,836011fffffffff
+PLACE_525,Mysuru,Town,887000,836015fffffffff
+PLACE_526,Kalaburagi,Town,483615,836084fffffffff
+PLACE_527,Kolhapur,Town,750000,8360abfffffffff
+PLACE_528,Nanded,Town,623708,836086fffffffff
+PLACE_529,Akola,Town,503502,836091fffffffff
+PLACE_530,Guwahati,Town,983000,833ce1fffffffff
+PLACE_531,Kayes,Town,62521,838389fffffffff
+PLACE_532,Franceville,Village,42967,8382a1fffffffff
+PLACE_533,Bordeaux,Town,803000,83184dfffffffff
+PLACE_534,Marseille,City,1400000,833968fffffffff
+PLACE_535,Le Havre,Town,242124,831865fffffffff
+PLACE_536,Gao,Town,116967,8359acfffffffff
+PLACE_537,Coihaique,Village,45787,83cf8bfffffffff
+PLACE_538,Arica,Town,185999,83b304fffffffff
+PLACE_539,Copiapó,Town,129280,83b201fffffffff
+PLACE_540,La Serena,Town,154521,83b219fffffffff
+PLACE_541,Los Angeles,Town,145239,83b2dbfffffffff
+PLACE_542,Narsarsuaq,Village,145,831b20fffffffff
+PLACE_543,Sisimiut,Village,5227,8306d1fffffffff
+PLACE_544,Upernavik,Village,1129,830683fffffffff
+PLACE_545,Qaanaaq,Village,616,830264fffffffff
+PLACE_546,Nouadhibou,Town,86738,8355aafffffffff
+PLACE_547,Kayes,Town,77207,835408fffffffff
+PLACE_548,Ayoun el Atrous,Village,1423,83542dfffffffff
+PLACE_549,Ségou,Town,122952,835463fffffffff
+PLACE_550,Skopje,Capital,494087,831ec6fffffffff
+PLACE_551,Al Jawf,Village,24132,833e1afffffffff
+PLACE_552,Tmassa,Village,500,833f8afffffffff
+PLACE_553,Misrata,Town,386120,833f12fffffffff
+PLACE_554,Zuwara,Town,180310,83384afffffffff
+PLACE_555,Kirkuk,Town,601433,832c12fffffffff
+PLACE_556,Mosul,City,1316000,832c16fffffffff
+PLACE_557,Najaf,Town,665552,832cb1fffffffff
+PLACE_558,Bahir Dar,Town,206748,835291fffffffff
+PLACE_559,Mekele,Town,95856,835285fffffffff
+PLACE_560,Dire Dawa,Town,252279,837adafffffffff
+PLACE_561,Rovaniemi,Village,34781,8308c3fffffffff
+PLACE_562,Vaasa,Town,57014,830889fffffffff
+PLACE_563,Tampere,Town,259279,831124fffffffff
+PLACE_564,Aqtobe,Town,262457,832131fffffffff
+PLACE_565,Rudniy,Town,124000,83212bfffffffff
+PLACE_566,Qyzylorda,Town,300000,832036fffffffff
+PLACE_567,Atyrau,Town,182753,832c6afffffffff
+PLACE_568,Ekibastuz,Town,127868,832158fffffffff
+PLACE_569,Pavlodar,Town,329002,832159fffffffff
+PLACE_570,Semey,Town,311353,832062fffffffff
+PLACE_571,Oskemen,Town,319067,832045fffffffff
+PLACE_572,Yazd,Town,477905,83432efffffffff
+PLACE_573,Ahvaz,Town,996000,832c9dfffffffff
+PLACE_574,Basra,Town,870000,832c91fffffffff
+PLACE_575,Bandar-e-Abbas,Town,461499,83431efffffffff
+PLACE_576,Hamadan,Town,528256,832cabfffffffff
+PLACE_577,Tabriz,City,1413000,832c1cfffffffff
+PLACE_578,Ludhiana,City,1649000,834249fffffffff
+PLACE_579,Kota,Town,827000,833db3fffffffff
+PLACE_580,Jodhpur,Town,995000,83425afffffffff
+PLACE_581,Shymkent,Town,465392,832012fffffffff
+PLACE_582,Taraz,Town,358153,832013fffffffff
+PLACE_583,Lucknow,City,2695000,833d8dfffffffff
+PLACE_584,Saharanpur,Town,484873,833d12fffffffff
+PLACE_585,Ranchi,City,1044000,833ca8fffffffff
+PLACE_586,Bhagalpur,Town,361548,833c1afffffffff
+PLACE_587,Raipur,Town,875000,833cb1fffffffff
+PLACE_588,Jabalpur,City,1285000,833d98fffffffff
+PLACE_589,Indore,City,2026000,833d96fffffffff
+PLACE_590,Puducherry,Town,227411,8361abfffffffff
+PLACE_591,Salem,Town,873000,836032fffffffff
+PLACE_592,Tiruchirappalli,Town,951000,836036fffffffff
+PLACE_593,Pointe-Noire,Town,659084,838233fffffffff
+PLACE_594,Kankan,Town,114009,835458fffffffff
+PLACE_595,Nzérékoré,Town,168121,8375a2fffffffff
+PLACE_596,Bouaké,Town,567481,837511fffffffff
+PLACE_597,St.-Denis,Town,190047,83a255fffffffff
+PLACE_598,Rio Branco,Town,257642,838b51fffffffff
+PLACE_599,São Luís,City,1038000,838008fffffffff
+PLACE_600,Porto Velho,Town,306180,838a05fffffffff
+PLACE_601,Alvorada,Village,10232,838166fffffffff
+PLACE_602,Corumbá,Town,96520,83a841fffffffff
+PLACE_603,Belo Horizonte,City,5575000,83a881fffffffff
+PLACE_604,Montes Claros,Town,332379,838124fffffffff
+PLACE_605,Uberlândia,Town,563536,83a8f5fffffffff
+PLACE_606,Colíder,Village,27139,838b9cfffffffff
+PLACE_607,Alta Floresta,Village,40466,838b9dfffffffff
+PLACE_608,Cuiabá,Town,806000,838ba6fffffffff
+PLACE_609,Pelotas,Town,320674,83a92efffffffff
+PLACE_610,Caxias do Sul,Town,381270,83a90efffffffff
+PLACE_611,Ponta Grossa,Town,292177,83a804fffffffff
+PLACE_612,Teresina,Town,907000,838005fffffffff
+PLACE_613,Maceió,City,1186000,838185fffffffff
+PLACE_614,Vitória da Conquista,Town,308204,838131fffffffff
+PLACE_615,Barreiras,Town,158292,83812bfffffffff
+PLACE_616,Vila Velha,City,1209091,83a895fffffffff
+PLACE_617,Natal,City,1088000,83818afffffffff
+PLACE_618,Thompson,Village,13727,830e9afffffffff
+PLACE_619,Brandon,Village,28418,832713fffffffff
+PLACE_620,Fort Smith,Village,518,831229fffffffff
+PLACE_621,Fort McMurray,Village,21863,831272fffffffff
+PLACE_622,Peace River,Village,5340,83120afffffffff
+PLACE_623,Fort St. John,Village,18776,83121efffffffff
+PLACE_624,Iqaluit,Village,6124,830f0bfffffffff
+PLACE_625,Cambridge Bay,Village,1477,8302cafffffffff
+PLACE_626,Kugluktuk,Village,1302,831329fffffffff
+PLACE_627,Chesterfield Inlet,Village,374,830f99fffffffff
+PLACE_628,Arviat,Village,1868,830eb1fffffffff
+PLACE_629,Taloyoak,Village,774,830fb0fffffffff
+PLACE_630,Igloolik,Village,1612,830fa5fffffffff
+PLACE_631,Dawson City,Village,1319,830d48fffffffff
+PLACE_632,Timmins,Village,34974,832b96fffffffff
+PLACE_633,North Bay,Town,50170,832b91fffffffff
+PLACE_634,Kuujjuarapik,Village,1243,830ee5fffffffff
+PLACE_635,Kuujjuaq,Village,1273,830f5afffffffff
+PLACE_636,Sydney,Village,37538,832b2efffffffff
+PLACE_637,Labrador City,Village,10313,830e45fffffffff
+PLACE_638,Ebolowa,Town,87875,83828bfffffffff
+PLACE_639,Bambari,Town,62098,836b8afffffffff
+PLACE_640,Venice,Town,270816,831ea5fffffffff
+PLACE_641,El Calafate,Village,8000,83cfacfffffffff
+PLACE_642,San Juan,Town,447048,83b252fffffffff
+PLACE_643,Rawson,Village,26335,83c32efffffffff
+PLACE_644,Neuquén,Town,242092,83ce93fffffffff
+PLACE_645,Trinidad,Town,84259,838b0cfffffffff
+PLACE_646,Santa Rosa,Town,111424,83c340fffffffff
+PLACE_647,Bariloche,Town,95394,83ce80fffffffff
+PLACE_648,Salta,Town,512686,83b35efffffffff
+PLACE_649,Tucumán,Town,830000,83b35bfffffffff
+PLACE_650,Formosa,Town,221383,83a941fffffffff
+PLACE_651,Santa Fe,Town,489505,83b24dfffffffff
+PLACE_652,Rosario,City,1203000,83c2ebfffffffff
+PLACE_653,Campinas,City,2791000,83a813fffffffff
+PLACE_654,Sorocaba,Town,563281,83a811fffffffff
+PLACE_655,Ribeirão Preto,Town,551267,83a81afffffffff
+PLACE_656,Petrolina,Town,260985,83811afffffffff
+PLACE_657,Bamenda,Town,445299,8358d1fffffffff
+PLACE_658,Garoua,Town,436899,8358e9fffffffff
+PLACE_659,Herat,Town,481009,834340fffffffff
+PLACE_660,Mazar-i-Sharif,Town,458151,8320b2fffffffff
+PLACE_661,Battambang,Town,154773,836583fffffffff
+PLACE_662,Siem Reap,Town,109398,83659cfffffffff
+PLACE_663,Malanje,Town,125856,8383a5fffffffff
+PLACE_664,Benguela,Town,151226,838304fffffffff
+PLACE_665,Lubango,Town,125632,838326fffffffff
+PLACE_666,Moçâmedes,Town,132900,838325fffffffff
+PLACE_667,Tarija,Town,159269,83b371fffffffff
+PLACE_668,Bridgetown,Capital,191152,835e70fffffffff
+PLACE_669,Annaba,Town,503524,833863fffffffff
+PLACE_670,Parakou,Town,188853,8358a2fffffffff
+PLACE_671,Porto-Novo,Town,300000,835891fffffffff
+PLACE_672,Constantine,Town,605179,833862fffffffff
+PLACE_673,Brest,Town,300715,831f5efffffffff
+PLACE_674,Khulna,City,1553000,833cf3fffffffff
+PLACE_675,Francistown,Town,89979,839770fffffffff
+PLACE_676,Mahalapye,Town,50744,83bcdbfffffffff
+PLACE_677,Serowe,Village,48573,839775fffffffff
+PLACE_678,Katherine,Village,10141,8394edfffffffff
+PLACE_679,Busselton,Village,10214,83c99efffffffff
+PLACE_680,Mandurah,Town,73356,83c993fffffffff
+PLACE_681,Broome,Village,13218,839480fffffffff
+PLACE_682,Kalgoorlie,Village,36852,83b845fffffffff
+PLACE_683,Albany,Village,26445,83c986fffffffff
+PLACE_684,Port Hedland,Village,14288,83a79afffffffff
+PLACE_685,Karratha,Village,16796,83a6a6fffffffff
+PLACE_686,Geraldton,Village,27258,83a703fffffffff
+PLACE_687,Griffith,Village,15455,83be55fffffffff
+PLACE_688,Orange,Village,39329,83be0bfffffffff
+PLACE_689,Dubbo,Village,31574,83bee5fffffffff
+PLACE_690,Armidale,Village,22673,83be1bfffffffff
+PLACE_691,Broken Hill,Village,17395,83b9a6fffffffff
+PLACE_692,Port Lincoln,Village,13630,83b911fffffffff
+PLACE_693,Whyalla,Village,22559,83b912fffffffff
+PLACE_694,Portland,Village,11808,83be68fffffffff
+PLACE_695,Bendigo,Town,81657,83be45fffffffff
+PLACE_696,Wangaratta,Village,14022,83be71fffffffff
+PLACE_697,Windorah,Village,158,839d65fffffffff
+PLACE_698,Mount Isa,Village,33200,839d4afffffffff
+PLACE_699,Rockhampton,Town,65850,839d21fffffffff
+PLACE_700,Cairns,Town,154225,839c23fffffffff
+PLACE_701,Gold Coast,Town,527660,83beabfffffffff
+PLACE_702,Devonport,Village,19317,83bf4bfffffffff
+PLACE_703,Bobo Dioulasso,Town,360106,837534fffffffff
+PLACE_704,Rajshahi,Town,810000,833cf4fffffffff
+PLACE_705,Mandalay,City,1300000,83649bfffffffff
+PLACE_706,Sittwe,Town,179032,833cdefffffffff
+PLACE_707,Bujumbura,Capital,331700,836adafffffffff
+PLACE_708,Pago Pago,Village,12576,839a14fffffffff
+PLACE_709,Kingstown,Capital,49485,835e71fffffffff
+PLACE_710,Castries,Capital,37963,835e46fffffffff
+PLACE_711,Basseterre,Capital,21887,835e4afffffffff
+PLACE_712,Las Palmas,Town,378495,83346bfffffffff
+PLACE_713,Berbera,Town,242344,8352dcfffffffff
+PLACE_714,Port Louis,Capital,595491,83a242fffffffff
+PLACE_715,Gaza City,Town,505700,832db6fffffffff
+PLACE_716,Saint George's,Capital,33734,835e66fffffffff
+PLACE_717,Papeete,Town,131695,838934fffffffff
+PLACE_718,Manama,Capital,563920,83536efffffffff
+PLACE_719,Freeport,Village,25383,8344a3fffffffff
+PLACE_720,Saint John's,Capital,35499,835e5dfffffffff
+PLACE_721,Taichung,City,2629323,834ba2fffffffff
+PLACE_722,Napier,Town,57800,83bb08fffffffff
+PLACE_723,Manukau,Town,375600,83bb50fffffffff
+PLACE_724,Hamilton,Town,148200,83bb54fffffffff
+PLACE_725,Blenheim,Village,30300,83bb29fffffffff
+PLACE_726,Dunedin,Town,117700,83da84fffffffff
+PLACE_727,Leh,Village,30870,833d04fffffffff
+PLACE_728,Amaravati,City,5800000,83619bfffffffff
+PLACE_729,Kozhikode,Town,953000,836006fffffffff
+PLACE_730,Bhubaneswar,Town,844000,833c8efffffffff
+PLACE_731,Jamshedpur,City,1300000,833cabfffffffff
+PLACE_732,Montevideo,Capital,1513000,83c2f1fffffffff
+PLACE_733,Helena,Village,38725,832792fffffffff
+PLACE_734,Bismarck,Town,63871,832636fffffffff
+PLACE_735,Boise,Town,338071,832884fffffffff
+PLACE_736,San Jose,City,1668000,832834fffffffff
+PLACE_737,Sacramento,City,1604000,832832fffffffff
+PLACE_738,Las Vegas,City,1823000,832986fffffffff
+PLACE_739,Santa Fe,Town,92681,8348d8fffffffff
+PLACE_740,Portland,City,1875000,8328f0fffffffff
+PLACE_741,Salt Lake City,Town,966000,832696fffffffff
+PLACE_742,Cheyenne,Town,72927,8326aefffffffff
+PLACE_743,Des Moines,Town,380655,83260dfffffffff
+PLACE_744,Omaha,Town,877110,83260efffffffff
+PLACE_745,Oklahoma City,Town,788000,8326c1fffffffff
+PLACE_746,Pierre,Village,13879,832633fffffffff
+PLACE_747,San Antonio,City,1473000,83489cfffffffff
+PLACE_748,San Cristóbal,Town,438798,83662bfffffffff
+PLACE_749,Valencia,City,1770000,836743fffffffff
+PLACE_750,Jackson,Town,250902,83445cfffffffff
+PLACE_751,Raleigh,City,1163515,832ad6fffffffff
+PLACE_752,Cleveland,City,1890000,832ab3fffffffff
+PLACE_753,Cincinnati,City,1636000,832a93fffffffff
+PLACE_754,Nashville,Town,877000,83264dfffffffff
+PLACE_755,Memphis,City,1081000,832659fffffffff
+PLACE_756,Norfolk,City,1047869,832af6fffffffff
+PLACE_757,Milwaukee,City,1388000,83275dfffffffff
+PLACE_758,Buffalo,City,1016000,832aa6fffffffff
+PLACE_759,Pittsburgh,City,1838000,832a84fffffffff
+PLACE_760,Ciudad Guayana,Town,746535,835f41fffffffff
+PLACE_761,Lomé,Capital,1452000,835890fffffffff
+PLACE_762,Tunis,Capital,2412500,83386efffffffff
+PLACE_763,Kodiak,Village,9461,830c5afffffffff
+PLACE_764,Cold Bay,Village,200,830cd8fffffffff
+PLACE_765,Bethel,Village,6228,830c1bfffffffff
+PLACE_766,Point Hope,Village,461,830da9fffffffff
+PLACE_767,Utqiaġvik,Village,4336,830d03fffffffff
+PLACE_768,Nome,Village,3485,830c14fffffffff
+PLACE_769,Valdez,Village,4036,830c44fffffffff
+PLACE_770,Juneau,Village,30711,83139efffffffff
+PLACE_771,Fairbanks,Town,56993,830d5afffffffff
+PLACE_772,Prudhoe Bay,Village,2500,830d0dfffffffff
+PLACE_773,Sevastopol,Town,379200,832d28fffffffff
+PLACE_774,Abu Dhabi,Capital,603492,8343a0fffffffff
+PLACE_775,Ashgabat,Capital,727700,832ccbfffffffff
+PLACE_776,Samarkand,Town,708000,8320a6fffffffff
+PLACE_777,Lusaka,Capital,1328000,83962efffffffff
+PLACE_778,Harare,Capital,1572000,839719fffffffff
+PLACE_779,Bulawayo,Town,699385,839772fffffffff
+PLACE_780,Dili,Capital,234331,83942cfffffffff
+PLACE_781,Port Vila,Capital,44040,839e22fffffffff
+PLACE_782,Tegucigalpa,Capital,946000,836d64fffffffff
+PLACE_783,Georgetown,Capital,264350,835f09fffffffff
+PLACE_784,Reykjavík,Capital,166212,83075dfffffffff
+PLACE_785,Port-au-Prince,Capital,1998000,836725fffffffff
+PLACE_786,Glasgow,City,1160000,831909fffffffff
+PLACE_787,Kampala,Capital,1420000,836ac8fffffffff
+PLACE_788,Aden,City,1000000,8352c6fffffffff
+PLACE_789,Paramaribo,Capital,254169,835f1cfffffffff
+PLACE_790,Seville,City,1212045,83391cfffffffff
+PLACE_791,Zinder,Town,230358,83580cfffffffff
+PLACE_792,Niamey,Capital,915000,83598dfffffffff
+PLACE_793,Port Sudan,Town,489725,835381fffffffff
+PLACE_794,Dushanbe,Capital,1086244,8320a2fffffffff
+PLACE_795,Cusco,Town,361182,838b61fffffffff
+PLACE_796,Tacna,Town,280098,83b304fffffffff
+PLACE_797,Trujillo,Town,765171,838f53fffffffff
+PLACE_798,Ica,Town,279420,838e45fffffffff
+PLACE_799,Asunción,Capital,1870000,83a94efffffffff
+PLACE_800,Managua,Capital,920000,836d61fffffffff
+PLACE_801,Freetown,Capital,827000,8354ccfffffffff
+PLACE_802,Agadez,Town,117770,83582cfffffffff
+PLACE_803,Nyala,Town,392373,836b0afffffffff
+PLACE_804,Wau,Town,127384,836a0cfffffffff
+PLACE_805,Dongola,Village,26404,833ecbfffffffff
+PLACE_806,Kassala,Town,401477,8352b5fffffffff
+PLACE_807,Tromsø,Town,52436,8308edfffffffff
+PLACE_808,Trondheim,Town,147139,830815fffffffff
+PLACE_809,Bergen,Town,213585,830981fffffffff
+PLACE_810,Islamabad,Capital,780000,834269fffffffff
+PLACE_811,Multan,City,1522000,834241fffffffff
+PLACE_812,Hyderabad,City,1459000,8342e5fffffffff
+PLACE_813,Peshawar,City,1303000,83426dfffffffff
+PLACE_814,Kathmandu,Capital,895000,833c02fffffffff
+PLACE_815,Nacala,Town,224795,8397b0fffffffff
+PLACE_816,Bloemfontein,Capital,463064,83bceefffffffff
+PLACE_817,Pretoria,Capital,1338000,83bcdcfffffffff
+PLACE_818,Port Moresby,Capital,283733,839caefffffffff
+PLACE_819,Honiara,Capital,76328,839edefffffffff
+PLACE_820,Panama City,Capital,1281000,8366a5fffffffff
+PLACE_821,Fez,City,1002000,833836fffffffff
+PLACE_822,Rabat,Capital,1705000,8339a8fffffffff
+PLACE_823,Marrakesh,Town,872000,833981fffffffff
+PLACE_824,Chișinău,Capital,688134,831e42fffffffff
+PLACE_825,Beira,Town,530604,839715fffffffff
+PLACE_826,Port Elizabeth,City,1021000,83bc73fffffffff
+PLACE_827,Maputo,Capital,1446000,83bc89fffffffff
+PLACE_828,Tomsk,Town,535479,830b86fffffffff
+PLACE_829,Anadyr,Village,10332,830d93fffffffff
+PLACE_830,Murmansk,Town,319263,831165fffffffff
+PLACE_831,Archangel,Town,356051,831150fffffffff
+PLACE_832,Nizhny Novgorod,City,1278000,831016fffffffff
+PLACE_833,Volgograd,Town,984000,832d48fffffffff
+PLACE_834,Ufa,City,1018000,8310d6fffffffff
+PLACE_835,Yekaterinburg,City,1313000,8310c2fffffffff
+PLACE_836,Samara,City,1137000,831081fffffffff
+PLACE_837,Kazan,City,1115000,8310a8fffffffff
+PLACE_838,Surgut,Town,400000,830b06fffffffff
+PLACE_839,Barnaul,Town,599579,830bb2fffffffff
+PLACE_840,Novosibirsk,City,1389000,830bb0fffffffff
+PLACE_841,Mogadishu,Capital,1100000,837a1cfffffffff
+PLACE_842,Muscat,Capital,734697,83438cfffffffff
+PLACE_843,Colombo,Capital,217000,83611cfffffffff
+PLACE_844,Cebu,Town,815000,836844fffffffff
+PLACE_845,Iloilo,Town,387681,836875fffffffff
+PLACE_846,Davao,City,1402000,836858fffffffff
+PLACE_847,Bratsk,Town,246348,830a91fffffffff
+PLACE_848,Irkutsk,Town,586695,832571fffffffff
+PLACE_849,Krasnoyarsk,Town,925000,830b9afffffffff
+PLACE_850,Dikson,Village,1113,830096fffffffff
+PLACE_851,Chita,Town,308500,8315a0fffffffff
+PLACE_852,Vladivostok,Town,587022,83316cfffffffff
+PLACE_853,Nizhneyansk,Village,400,830416fffffffff
+PLACE_854,Yakutsk,Town,235600,83155dfffffffff
+PLACE_855,Tiksi,Village,5700,830588fffffffff
+PLACE_856,Magadan,Town,95282,831714fffffffff
+PLACE_857,Tijuana,City,1553000,8329a4fffffffff
+PLACE_858,Chihuahua,Town,793000,8348f4fffffffff
+PLACE_859,Mazatlán,Town,368204,834833fffffffff
+PLACE_860,Tampico,Town,859419,83456dfffffffff
+PLACE_861,Acapulco,Town,715584,8349b5fffffffff
+PLACE_862,Veracruz,Town,578963,834996fffffffff
+PLACE_863,Tuxtla Gutiérrez,Town,481128,836d23fffffffff
+PLACE_864,Cancún,Town,542043,83450afffffffff
+PLACE_865,Mérida,Town,965000,834509fffffffff
+PLACE_866,Enugu,Town,688862,8358d6fffffffff
+PLACE_867,Sokoto,Town,732178,835815fffffffff
+PLACE_868,Perm,Town,997000,8310f1fffffffff
+PLACE_869,Erdenet,Town,79647,832553fffffffff
+PLACE_870,Ulaanbaatar,Capital,885000,83255afffffffff
+PLACE_871,Mbeya,Town,291649,8396a3fffffffff
+PLACE_872,Windhoek,Capital,268132,83aca6fffffffff
+PLACE_873,Grootfontein,Village,24099,83acb3fffffffff
+PLACE_874,Zanzibar,Town,403658,837b4cfffffffff
+PLACE_875,Valencia,Town,808000,833954fffffffff
+PLACE_876,Palana,Village,3671,831719fffffffff
+PLACE_877,Petropavlovsk-Kamchatsky,Town,187282,831616fffffffff
+PLACE_878,Abuja,Capital,1576000,8358f0fffffffff
+PLACE_879,Padang,Town,855000,838cd1fffffffff
+PLACE_880,Bissau,Capital,403339,8354f5fffffffff
+PLACE_881,Palermo,Town,863000,831e9afffffffff
+PLACE_882,Amman,Capital,1060000,832db3fffffffff
+PLACE_883,Vilnius,Capital,542366,831f40fffffffff
+PLACE_884,Riga,Capital,742572,831f60fffffffff
+PLACE_885,Bishkek,Capital,837000,83201afffffffff
+PLACE_886,Jiayuguan,Town,148279,8324aefffffffff
+PLACE_887,Xining,City,1048000,83248bfffffffff
+PLACE_888,Guilin,Town,987000,834022fffffffff
+PLACE_889,Huainan,City,1451000,833094fffffffff
+PLACE_890,Shantou,City,1601000,834110fffffffff
+PLACE_891,Tarakan,Town,193069,8368a9fffffffff
+PLACE_892,Mombasa,Town,882000,837b59fffffffff
+PLACE_893,Maseru,Capital,361324,83bce3fffffffff
+PLACE_894,Antananarivo,Capital,1697000,83a231fffffffff
+PLACE_895,Semarang,City,1396000,838d8cfffffffff
+PLACE_896,Palembang,City,1749000,838cabfffffffff
+PLACE_897,Bandjarmasin,Town,603576,838d92fffffffff
+PLACE_898,Makassar,City,1262000,839500fffffffff
+PLACE_899,Lyon,City,1423000,831f90fffffffff
+PLACE_900,Quito,Capital,1701000,8366d3fffffffff
+PLACE_901,San José,Capital,1284000,836d69fffffffff
+PLACE_902,San Salvador,Capital,1433000,836d74fffffffff
+PLACE_903,Kingston,Capital,937700,836732fffffffff
+PLACE_904,Cartagena,Town,887000,836631fffffffff
+PLACE_905,Mitú,Village,5917,83665afffffffff
+PLACE_906,Bumba,Town,160539,836a85fffffffff
+PLACE_907,N'Djamena,Capital,989000,83585dfffffffff
+PLACE_908,Abéché,Town,158317,836b06fffffffff
+PLACE_909,Malabo,Capital,155963,8382d0fffffffff
+PLACE_910,Luxor,Town,609248,833e5cfffffffff
+PLACE_911,Asmara,Capital,620802,8352a3fffffffff
+PLACE_912,Zagreb,Capital,722526,831e13fffffffff
+PLACE_913,Tallinn,Capital,394024,83089bfffffffff
+PLACE_914,Lhasa,Town,219599,833c72fffffffff
+PLACE_915,Hami,Town,580000,83258efffffffff
+PLACE_916,Hotan,Town,408894,833d2cfffffffff
+PLACE_917,Kashgar,Town,506640,8320f2fffffffff
+PLACE_918,Yinchuan,Town,991000,8324c0fffffffff
+PLACE_919,Pingxiang,Town,961000,83418dfffffffff
+PLACE_920,Nagasaki,Town,435455,8330dbfffffffff
+PLACE_921,Qiqihar,City,1641000,8314b6fffffffff
+PLACE_922,Kikwit,Town,637736,838395fffffffff
+PLACE_923,Matadi,Town,245862,838236fffffffff
+PLACE_924,Kolwezi,Town,418000,83960bfffffffff
+PLACE_925,Lubumbashi,City,1352000,83960efffffffff
+PLACE_926,Lilongwe,Capital,646750,83978dfffffffff
+PLACE_927,Guatemala City,Capital,1024000,836d29fffffffff
+PLACE_928,Cayenne,Town,61550,835f12fffffffff
+PLACE_929,Libreville,Capital,578156,8382f0fffffffff
+PLACE_930,Vishakhapatnam,City,1529000,833c93fffffffff
+PLACE_931,Suva,Capital,175399,839b41fffffffff
+PLACE_932,Port-Gentil,Town,116836,83821bfffffffff
+PLACE_933,Timbuktu,Town,68872,8359a6fffffffff
+PLACE_934,Punta Arenas,Town,117430,83df6dfffffffff
+PLACE_935,Iquique,Town,227499,83b303fffffffff
+PLACE_936,Antofagasta,Town,309832,83b226fffffffff
+PLACE_937,Valparaíso,Town,854000,83b2c4fffffffff
+PLACE_938,Valdivia,Town,159599,83ce8cfffffffff
+PLACE_939,Concepción,Town,889725,83b2d8fffffffff
+PLACE_940,Puerto Montt,Town,174629,83ceaafffffffff
+PLACE_941,Nuuk,Village,14798,8306ddfffffffff
+PLACE_942,Nouakchott,Capital,742144,835414fffffffff
+PLACE_943,Bamako,Capital,1494000,835440fffffffff
+PLACE_944,Atar,Village,44265,83551bfffffffff
+PLACE_945,Djenné,Village,32944,8359b6fffffffff
+PLACE_946,Sabha,Town,100249,833f83fffffffff
+PLACE_947,Banghazi,City,1180000,833f19fffffffff
+PLACE_948,Thessaloniki,Town,828000,831ec2fffffffff
+PLACE_949,Beirut,Capital,1846000,832da2fffffffff
+PLACE_950,Tbilisi,Capital,1100000,832c2afffffffff
+PLACE_951,Gondar,Town,156230,835282fffffffff
+PLACE_952,Nur-Sultan,Capital,345604,832153fffffffff
+PLACE_953,Qaraghandy,Town,451800,83202dfffffffff
+PLACE_954,Almaty,City,1209000,8320e6fffffffff
+PLACE_955,Isfahan,City,1628000,834325fffffffff
+PLACE_956,Shiraz,City,1240000,834331fffffffff
+PLACE_957,Amritsar,City,1212000,833d32fffffffff
+PLACE_958,Varanasi,City,1352000,833c16fffffffff
+PLACE_959,Asansol,City,1328000,833ca9fffffffff
+PLACE_960,Bhilai,City,1097000,833cb0fffffffff
+PLACE_961,Bhopal,City,1727000,833d91fffffffff
+PLACE_962,Madurai,City,1294000,836034fffffffff
+PLACE_963,Coimbatore,City,1696000,836033fffffffff
+PLACE_964,Vientiane,Capital,754000,8364b6fffffffff
+PLACE_965,Brazzaville,Capital,1355000,83838efffffffff
+PLACE_966,Conakry,Capital,1494000,8354eafffffffff
+PLACE_967,Yamoussoukro,Capital,206499,83751efffffffff
+PLACE_968,Cruzeiro do Sul,Town,56862,838b49fffffffff
+PLACE_969,Leticia,Town,59575,838a45fffffffff
+PLACE_970,Manaus,City,1753000,838af6fffffffff
+PLACE_971,Caxias,Town,134640,838005fffffffff
+PLACE_972,Santarém,Town,230428,838a9cfffffffff
+PLACE_973,Marabá,Town,166182,838159fffffffff
+PLACE_974,Vilhena,Town,63231,838badfffffffff
+PLACE_975,Ji-Paraná,Town,65016,838a35fffffffff
+PLACE_976,Campo Grande,Town,778000,83a855fffffffff
+PLACE_977,Florianópolis,City,1023000,83a91bfffffffff
+PLACE_978,Feira de Santana,Town,481911,838110fffffffff
+PLACE_979,Winnipeg,Town,632063,83271cfffffffff
+PLACE_980,Churchill,Village,1000,830e80fffffffff
+PLACE_981,Regina,Town,176183,8327a0fffffffff
+PLACE_982,Saskatoon,Town,198958,831259fffffffff
+PLACE_983,Calgary,City,1110000,8312ccfffffffff
+PLACE_984,Prince Rupert,Village,14708,831286fffffffff
+PLACE_985,Victoria,Town,289625,8328d1fffffffff
+PLACE_986,Arctic Bay,Village,604,83025cfffffffff
+PLACE_987,Resolute,Village,250,830252fffffffff
+PLACE_988,Naujaat,Village,1000,830f85fffffffff
+PLACE_989,Yellowknife,Village,19234,831352fffffffff
+PLACE_990,Fort Good Hope,Village,597,831314fffffffff
+PLACE_991,Whitehorse,Village,23276,831386fffffffff
+PLACE_992,Boa Vista,Town,235150,838adafffffffff
+PLACE_993,Macapá,Town,499166,83806afffffffff
+PLACE_994,Ottawa,Capital,1145000,832b83fffffffff
+PLACE_995,Fort Severn,Village,125,830ef2fffffffff
+PLACE_996,Thunder Bay,Town,99334,832770fffffffff
+PLACE_997,Québec,Town,624177,832bacfffffffff
+PLACE_998,Halifax,Town,359111,832b0efffffffff
+PLACE_999,St. John's,Town,131469,831aa0fffffffff
+PLACE_1000,Nain,Village,1151,830f4bfffffffff
+PLACE_1001,Charlottetown,Village,42402,832b05fffffffff
+PLACE_1002,N'Délé,Village,11764,836babfffffffff
+PLACE_1003,Belgrade,Capital,1099000,831e1bfffffffff
+PLACE_1004,Obo,Village,12887,836a1cfffffffff
+PLACE_1005,Bandar Seri Begawan,Capital,296500,836816fffffffff
+PLACE_1006,Puerto Deseado,Village,3305,83cf94fffffffff
+PLACE_1007,Río Gallegos,Town,85700,83cfa4fffffffff
+PLACE_1008,Comodoro Rivadavia,Town,140850,83cf9efffffffff
+PLACE_1009,Mendoza,Town,893000,83b2eefffffffff
+PLACE_1010,Sucre,Capital,224838,838b25fffffffff
+PLACE_1011,Riberalta,Town,74014,838b56fffffffff
+PLACE_1012,Bahía Blanca,Town,281536,83c350fffffffff
+PLACE_1013,Mar del Plata,Town,555897,83c203fffffffff
+PLACE_1014,Córdoba,City,1452000,83b243fffffffff
+PLACE_1015,Posadas,Town,357119,83a946fffffffff
+PLACE_1016,Belmopan,Capital,15220,83452efffffffff
+PLACE_1017,Bangui,Capital,831925,836b9afffffffff
+PLACE_1018,Maroua,Town,319941,83585afffffffff
+PLACE_1019,Yaoundé,Capital,1611000,83828bfffffffff
+PLACE_1020,Tirana,Capital,895350,831ed4fffffffff
+PLACE_1021,Yerevan,Capital,1102000,832c01fffffffff
+PLACE_1022,Baku,Capital,2122300,832ce5fffffffff
+PLACE_1023,Kandahar,Town,715542,83435bfffffffff
+PLACE_1024,Phnom Penh,Capital,1466000,836584fffffffff
+PLACE_1025,Menongue,Village,13030,839668fffffffff
+PLACE_1026,Huambo,City,1100000,838332fffffffff
+PLACE_1027,La Paz,Capital,1590000,83b321fffffffff
+PLACE_1028,Santa Cruz,City,2102998,838b22fffffffff
+PLACE_1029,Oran,Town,798000,833823fffffffff
+PLACE_1030,Cotonou,Capital,762000,835891fffffffff
+PLACE_1031,Tamanrasset,Town,76000,835974fffffffff
+PLACE_1032,Ghardaia,Town,125480,83380bfffffffff
+PLACE_1033,Sofia,Capital,1185000,831ec4fffffffff
+PLACE_1034,Minsk,Capital,1805000,831f4efffffffff
+PLACE_1035,Thimphu,Capital,98676,833c0afffffffff
+PLACE_1036,Gaborone,Capital,208411,83bccafffffffff
+PLACE_1037,Darwin,Town,93080,839450fffffffff
+PLACE_1038,Alice Springs,Village,27710,83b880fffffffff
+PLACE_1039,Canberra,Capital,327700,83be72fffffffff
+PLACE_1040,Newcastle,Town,540796,83be1dfffffffff
+PLACE_1041,Adelaide,City,1145000,83b916fffffffff
+PLACE_1042,Townsville,Town,138954,839d0bfffffffff
+PLACE_1043,Brisbane,City,1860000,83be8dfffffffff
+PLACE_1044,Hobart,Town,80870,83bf4cfffffffff
+PLACE_1045,Ouagadougou,Capital,1149000,835991fffffffff
+PLACE_1046,Sarajevo,Capital,696731,831ef4fffffffff
+PLACE_1047,Naypyidaw,Capital,930000,836499fffffffff
+PLACE_1048,San Juan,City,2478905,834ceefffffffff
+PLACE_1049,Stanley,Village,2213,83de70fffffffff
+PLACE_1050,Hamilton,Capital,52320,832a4cfffffffff
+PLACE_1051,Nuku'alofa,Capital,42620,839b0cfffffffff
+PLACE_1052,Hargeisa,Capital,477876,8352d3fffffffff
+PLACE_1053,Victoria,Capital,33576,8385a2fffffffff
+PLACE_1054,São Tomé,Capital,88219,8382e3fffffffff
+PLACE_1055,Apia,Capital,61916,839a15fffffffff
+PLACE_1056,Valletta,Capital,368250,833f30fffffffff
+PLACE_1057,Malé,Capital,112927,836142fffffffff
+PLACE_1058,Jerusalem,Capital,1029300,832db0fffffffff
+PLACE_1059,Praia,Capital,113364,835494fffffffff
+PLACE_1060,Nassau,Capital,227940,8344b5fffffffff
+PLACE_1061,Nicosia,Capital,224300,832da4fffffffff
+PLACE_1062,Kaohsiung,City,2769072,834bb1fffffffff
+PLACE_1063,Wellington,Capital,393400,83bb29fffffffff
+PLACE_1064,Christchurch,Town,363200,83dab3fffffffff
+PLACE_1065,Shenzhen,City,7581000,83411cfffffffff
+PLACE_1066,Zibo,City,3061000,8330a4fffffffff
+PLACE_1067,Minneapolis,City,2616000,832752fffffffff
+PLACE_1068,Honolulu,Town,786000,83464bfffffffff
+PLACE_1069,Seattle,City,3074000,8328d5fffffffff
+PLACE_1070,Phoenix,City,3551000,8329b6fffffffff
+PLACE_1071,San Diego,City,2916000,8329a4fffffffff
+PLACE_1072,St. Louis,City,2199000,832640fffffffff
+PLACE_1073,New Orleans,Town,785000,834446fffffffff
+PLACE_1074,Dallas,City,4798000,8326cbfffffffff
+PLACE_1075,Maracaibo,City,2072000,836752fffffffff
+PLACE_1076,Boston,City,4467000,832a30fffffffff
+PLACE_1077,Tampa,City,2314000,83441afffffffff
+PLACE_1078,Philadelphia,City,5492000,832a13fffffffff
+PLACE_1079,Detroit,City,4101000,832ab2fffffffff
+PLACE_1080,Anchorage,Town,260283,830c73fffffffff
+PLACE_1081,Hanoi,Capital,4378000,83415cfffffffff
+PLACE_1082,Ho Chi Minh City,City,5314000,8365b5fffffffff
+PLACE_1083,Ankara,Capital,3716000,832d33fffffffff
+PLACE_1084,Budapest,Capital,1679000,831e03fffffffff
+PLACE_1085,Sanaa,Capital,2008000,83521bfffffffff
+PLACE_1086,Barcelona,City,4920000,833944fffffffff
+PLACE_1087,Bucharest,Capital,1942000,831eecfffffffff
+PLACE_1088,Aleppo,City,2738000,832daefffffffff
+PLACE_1089,Damascus,Capital,2466000,832db1fffffffff
+PLACE_1090,Zürich,City,1108000,831f83fffffffff
+PLACE_1091,Lisbon,Capital,2812000,833933fffffffff
+PLACE_1092,Khartoum,Capital,4754000,836b6efffffffff
+PLACE_1093,Jeddah,City,3012000,8353a9fffffffff
+PLACE_1094,Makkah,City,1385000,8353a9fffffffff
+PLACE_1095,Oslo,Capital,835000,830999fffffffff
+PLACE_1096,Lahore,City,6577000,83424dfffffffff
+PLACE_1097,Karachi,City,12130000,8342e4fffffffff
+PLACE_1098,Durban,City,2729000,83bc1bfffffffff
+PLACE_1099,St.  Petersburg,City,4553000,831106fffffffff
+PLACE_1100,Guadalajara,City,4198000,83498cfffffffff
+PLACE_1101,Puebla,City,2195000,834994fffffffff
+PLACE_1102,Kano,City,3140000,83580afffffffff
+PLACE_1103,Warsaw,Capital,1707000,831f53fffffffff
+PLACE_1104,Pyongyang,Capital,3300000,833029fffffffff
+PLACE_1105,Dar es Salaam,Capital,2930000,837b4cfffffffff
+PLACE_1106,Medan,City,2115000,83650dfffffffff
+PLACE_1107,Dublin,Capital,1059000,83182cfffffffff
+PLACE_1108,Monrovia,Capital,1041000,837586fffffffff
+PLACE_1109,Naples,City,2250000,831e83fffffffff
+PLACE_1110,Milan,City,2945000,831f99fffffffff
+PLACE_1111,Kuala Lumpur,Capital,1448000,836505fffffffff
+PLACE_1112,Lanzhou,City,2561000,8324d2fffffffff
+PLACE_1113,Nanning,City,2167000,834153fffffffff
+PLACE_1114,Guiyang,City,3662000,83400cfffffffff
+PLACE_1115,Chongqing,City,6461000,834019fffffffff
+PLACE_1116,Fuzhou,City,2606000,8341b5fffffffff
+PLACE_1117,Guangzhou,City,8829000,834118fffffffff
+PLACE_1118,Dongguan,City,4528000,83411cfffffffff
+PLACE_1119,Bandung,City,2394000,838c14fffffffff
+PLACE_1120,Surabaya,City,2845000,838d80fffffffff
+PLACE_1121,Guayaquil,City,2514000,838f2bfffffffff
+PLACE_1122,Medellín,City,3297000,836618fffffffff
+PLACE_1123,Cali,City,2254000,8366f1fffffffff
+PLACE_1124,Havana,Capital,2174000,834432fffffffff
+PLACE_1125,Alexandria,City,4165000,833f5bfffffffff
+PLACE_1126,Frankfurt,City,2895000,831faefffffffff
+PLACE_1127,Hamburg,City,1757000,831f15fffffffff
+PLACE_1128,Munich,City,1275000,831f8dfffffffff
+PLACE_1129,Prague,Capital,1162000,831e35fffffffff
+PLACE_1130,Kuwait City,Capital,2063000,832c93fffffffff
+PLACE_1131,Xian,City,4009000,834088fffffffff
+PLACE_1132,Taiyuan,City,2913000,833190fffffffff
+PLACE_1133,Wuhan,City,7243000,8340a6fffffffff
+PLACE_1134,Changsha,City,2604000,834189fffffffff
+PLACE_1135,Kunming,City,2931000,834071fffffffff
+PLACE_1136,Zhengzhou,City,2636000,834090fffffffff
+PLACE_1137,Shenyeng,City,4787000,833025fffffffff
+PLACE_1138,Jinan,City,2798000,833199fffffffff
+PLACE_1139,Tianjin,City,7180000,83318cfffffffff
+PLACE_1140,Nanchang,City,2350000,834183fffffffff
+PLACE_1141,Nanjing,City,3679000,833091fffffffff
+PLACE_1142,Hangzhou,City,3007000,83309afffffffff
+PLACE_1143,Hiroshima,City,2045000,832e69fffffffff
+PLACE_1144,Changchun,City,3183000,833176fffffffff
+PLACE_1145,Baotou,City,2036000,8324e9fffffffff
+PLACE_1146,Harbin,City,3621000,831496fffffffff
+PLACE_1147,Sapporo,City,2544000,832e1bfffffffff
+PLACE_1148,Santo Domingo,Capital,2154000,834cd4fffffffff
+PLACE_1149,Accra,Capital,2121000,837576fffffffff
+PLACE_1150,Delhi,City,15926000,833da1fffffffff
+PLACE_1151,Hyderabad,City,6376000,8360a2fffffffff
+PLACE_1152,Pune,City,4672000,836088fffffffff
+PLACE_1153,Nagpur,City,2454000,836096fffffffff
+PLACE_1154,Tripoli,Capital,2189000,83384bfffffffff
+PLACE_1155,Tel Aviv,City,3112000,832db0fffffffff
+PLACE_1156,Helsinki,Capital,1115000,831126fffffffff
+PLACE_1157,Mashhad,City,2469000,834360fffffffff
+PLACE_1158,Jaipur,City,2917000,833da2fffffffff
+PLACE_1159,Kanpur,City,3162000,833d8cfffffffff
+PLACE_1160,Patna,City,2158000,833c13fffffffff
+PLACE_1161,Chennai,City,7163000,83618efffffffff
+PLACE_1162,Ahmedabad,City,5375000,8342cefffffffff
+PLACE_1163,Surat,City,3842000,8342d9fffffffff
+PLACE_1164,København,Capital,1085000,831f05fffffffff
+PLACE_1165,Abidjan,Capital,3802000,837519fffffffff
+PLACE_1166,Belém,City,2167000,838044fffffffff
+PLACE_1167,Brasília,Capital,3716996,83a8d1fffffffff
+PLACE_1168,Porto Alegre,City,3917000,83a901fffffffff
+PLACE_1169,Curitiba,City,3084000,83a831fffffffff
+PLACE_1170,Fortaleza,City,3602319,838010fffffffff
+PLACE_1171,Salvador,City,3484000,838116fffffffff
+PLACE_1172,Edmonton,City,1058000,8312ecfffffffff
+PLACE_1173,Montréal,City,3678000,832baafffffffff
+PLACE_1174,Goiânia,City,2022000,83a8c0fffffffff
+PLACE_1175,Recife,City,3651000,838183fffffffff
+PLACE_1176,Brussels,Capital,1743000,831fa4fffffffff
+PLACE_1177,Dhaka,Capital,12797394,833cf1fffffffff
+PLACE_1178,Luanda,Capital,5172900,83831efffffffff
+PLACE_1179,Algiers,Capital,3354000,83395afffffffff
+PLACE_1180,Chattogram,City,4529000,833cc2fffffffff
+PLACE_1181,Perth,City,1532000,83a726fffffffff
+PLACE_1182,Yangon,City,4088000,83648cfffffffff
+PLACE_1183,San Francisco,City,3450000,832830fffffffff
+PLACE_1184,Denver,City,2313000,83268cfffffffff
+PLACE_1185,Houston,City,4459000,83446cfffffffff
+PLACE_1186,Miami,City,5585000,8344a1fffffffff
+PLACE_1187,Atlanta,City,4506000,8344c1fffffffff
+PLACE_1188,Chicago,City,8990000,832664fffffffff
+PLACE_1189,Caracas,Capital,2985000,836741fffffffff
+PLACE_1190,Kyiv,Capital,2709000,831e63fffffffff
+PLACE_1191,Dubai,City,1379000,8343a1fffffffff
+PLACE_1192,Tashkent,Capital,2184000,8320a5fffffffff
+PLACE_1193,Madrid,Capital,5567000,83390cfffffffff
+PLACE_1194,Geneva,City,1240000,831f91fffffffff
+PLACE_1195,Stockholm,Capital,1264000,830886fffffffff
+PLACE_1196,Bangkok,Capital,6704000,8364a4fffffffff
+PLACE_1197,Lima,Capital,8012000,838e62fffffffff
+PLACE_1198,Dakar,Capital,2604000,8354acfffffffff
+PLACE_1199,Johannesburg,City,3435000,83bcc3fffffffff
+PLACE_1200,Amsterdam,Capital,1031000,831969fffffffff
+PLACE_1201,Casablanca,City,3181000,8339aafffffffff
+PLACE_1202,Seoul,Capital,9796000,8330e1fffffffff
+PLACE_1203,Manila,Capital,11100000,83694efffffffff
+PLACE_1204,Monterrey,City,3712000,8348a2fffffffff
+PLACE_1205,Berlin,Capital,3406000,831f1dfffffffff
+PLACE_1206,Ürümqi,City,3575000,8325b0fffffffff
+PLACE_1207,Chengdu,City,4123000,8340e3fffffffff
+PLACE_1208,Ōsaka,City,11294000,832e61fffffffff
+PLACE_1209,Kinshasa,Capital,7843000,83838efffffffff
+PLACE_1210,New Delhi,Capital,317797,833da1fffffffff
+PLACE_1211,Bengaluru,City,6787000,836014fffffffff
+PLACE_1212,Athens,Capital,3242000,831edafffffffff
+PLACE_1213,Baghdad,Capital,5054000,832ca0fffffffff
+PLACE_1214,Addis Ababa,Capital,3100000,83529bfffffffff
+PLACE_1215,Tehran,Capital,7873000,832cf3fffffffff
+PLACE_1216,Vancouver,City,2313328,8328defffffffff
+PLACE_1217,Toronto,City,5213000,832b9bfffffffff
+PLACE_1218,Buenos Aires,Capital,12795000,83c2e3fffffffff
+PLACE_1219,Kabul,Capital,3277000,832090fffffffff
+PLACE_1220,Vienna,Capital,2400000,831e15fffffffff
+PLACE_1221,Melbourne,City,4170000,83be63fffffffff
+PLACE_1222,Taipei,Capital,6900273,834ba0fffffffff
+PLACE_1223,Auckland,City,1377200,83bb50fffffffff
+PLACE_1224,Los Angeles,City,12500000,8329a1fffffffff
+PLACE_1225,"Washington,  D.C.",Capital,4338000,832aa8fffffffff
+PLACE_1226,New York,City,19040000,832a10fffffffff
+PLACE_1227,London,Capital,8567000,83194afffffffff
+PLACE_1228,Istanbul,City,10061000,831ec9fffffffff
+PLACE_1229,Riyadh,Capital,4465000,835355fffffffff
+PLACE_1230,Cape Town,Capital,3215000,83ad36fffffffff
+PLACE_1231,Moscow,Capital,10452000,8311aafffffffff
+PLACE_1232,Mexico City,Capital,19028000,834995fffffffff
+PLACE_1233,Lagos,City,9466000,83589cfffffffff
+PLACE_1234,Rome,Capital,3339000,831e80fffffffff
+PLACE_1235,Beijing,Capital,11106000,8331aafffffffff
+PLACE_1236,Nairobi,Capital,3010000,837a6efffffffff
+PLACE_1237,Jakarta,Capital,9125000,838c10fffffffff
+PLACE_1238,Bogota,Capital,7772000,8366e4fffffffff
+PLACE_1239,Cairo,Capital,11893000,833e62fffffffff
+PLACE_1240,Shanghai,City,14987000,833099fffffffff
+PLACE_1241,Tokyo,Capital,35676000,832f5afffffffff
+PLACE_1242,Mumbai,City,18978000,83608bfffffffff
+PLACE_1243,Paris,Capital,9904000,831fb4fffffffff
+PLACE_1244,Santiago,Capital,5720000,83b2c5fffffffff
+PLACE_1245,Kolkata,City,14787000,833cf2fffffffff
+PLACE_1246,Rio de Janeiro,City,11748000,83a8a0fffffffff
+PLACE_1247,São Paulo,City,18845000,83a810fffffffff
+PLACE_1248,Sydney,City,4630000,83be0efffffffff
+PLACE_1249,Singapore,Capital,5183700,836526fffffffff
+PLACE_1250,Hong Kong,City,7206000,83411cfffffffff
