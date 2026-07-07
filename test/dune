@@ -1,0 +1,4 @@
+(executable
+ (name beast_test)
+ (modules beast_test)
+ (libraries redline_dynasty))

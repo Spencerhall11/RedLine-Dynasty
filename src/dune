@@ -1,3 +1,9 @@
+(library
+ (name redline_dynasty)
+ (wrapped false)
+ (modules types logic archive geography beast_types))
+
 (executable
  (name main)
- (libraries))
+ (modules main)
+ (libraries redline_dynasty))

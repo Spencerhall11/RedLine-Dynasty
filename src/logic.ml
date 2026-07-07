@@ -895,3 +895,79 @@ let step_turn (world : world_state) (player_actions : (string * action) list) :
   let actions = plan_turn world player_actions in
   let world', logs = advance_turn world actions in
   { world' with year = world'.year + 1; archive_logs = world'.archive_logs @ logs }
+
+(* ==========================================================
+   Asset pulling -- maps a beast's element(s) to the artist's
+   actual PNG and opens it in the default viewer. Shared by any
+   test/tool that needs to visually confirm a spawn.
+   ========================================================== *)
+
+let assets_folder =
+  "C:\\Users\\spenc\\OneDrive\\Documents\\GitHub\\CS350\\RedLine-Dynasty\\assets\\beasts\\"
+
+(* Short token used in asset filenames, per element. Extend as needed. *)
+let short_name (element : element_id) : string =
+  match element with
+  | "Standard Wood Qi" -> "Wood"
+  | "Standard Water Qi" -> "Water"
+  | "Standard Fire Qi" -> "Fire"
+  | "Standard Earth Qi" -> "Earth"
+  | "Standard Metal Qi" -> "Metal"
+  | "Standard Wind Qi" -> "Wind"
+  | "Standard Lightning Qi" -> "Lightning"
+  | other -> other (* fallback: use the raw element string *)
+
+let asset_filename_for (species_name : string) (primary : element_id)
+    (secondary : element_id option) : string =
+  match secondary with
+  | Some sec -> Printf.sprintf "%s-%s_%s.png" (short_name primary) (short_name sec) species_name
+  | None -> Printf.sprintf "%s_%s.png" (short_name primary) species_name
+
+(* Forces BOTH elements instead of rolling from a biome -- bypasses
+   roll_injected_element entirely, for tests that need a specific,
+   art-backed element pair. The real generation pipeline
+   (generate_beast/attempt_spawn) is untouched; secondary_element
+   stays None there until a real roll mechanism for it is designed. *)
+let assemble_forced (id : string) (t : species_template) (disp : disposition)
+    (location : string) (primary : element_id) (secondary : element_id option)
+    (stats : beast_attributes) : beast =
+  {
+    beast_id = id;
+    species = t;
+    personality = disp;
+    stats;
+    injected_element = primary;
+    secondary_element = secondary;
+    active_synergy = find_synergy t stats primary;
+    sentience = derive_sentience stats;
+    role = Transient_Wildlife;
+    is_sentient = true;
+    qi_tier = 0;
+    skill_library = [];
+    sustenance = Predation;
+    hunger = 0.0;
+    location;
+    sex = (if Random.bool () then Male else Female);
+    reproductive_status = Not_Pregnant;
+  }
+
+(* Opens a beast's asset image in the default viewer if it exists.
+   Windows-only ('start' is a Windows shell builtin). Returns whether
+   the file was found, so callers can report success/failure. *)
+let pull_and_show_image (b : beast) : bool =
+  let filename = asset_filename_for b.species.species_name b.injected_element b.secondary_element in
+  let full_path = assets_folder ^ filename in
+  Printf.printf "Asset path: %s\n" full_path;
+  if Sys.file_exists full_path then begin
+    Printf.printf "File found -- opening in default viewer...\n";
+    (* The empty "" is a required argument slot for 'start' (a window
+       title) when the path itself is quoted -- omitting it breaks
+       paths containing spaces, which yours has ("Iron-Flesh Tiger.png"). *)
+    let command = Printf.sprintf "start \"\" \"%s\"" full_path in
+    ignore (Sys.command command);
+    true
+  end
+  else begin
+    Printf.printf "File NOT found at that path -- check the filename/folder match exactly.\n";
+    false
+  end

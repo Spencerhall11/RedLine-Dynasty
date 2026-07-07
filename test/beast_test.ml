@@ -1,79 +1,47 @@
 open Types
 open Logic
 
-let tiger = beast_types.iron_flesh_tiger
+let tiger = Beast_types.iron_flesh_tiger
 
-(* Your real assets folder. Backslashes need doubling in an OCaml string. *)
-let assets_folder =
-  "C:\\Users\\spenc\\OneDrive\\Documents\\GitHub\\CS350\\RedLine-Dynasty\\assets\\beasts\\"
+(* Condition A: stillborn. Just the count -- no cause breakdown needed. *)
+let rec find_stillborn attempts =
+  match attempt_spawn (Printf.sprintf "a-%d" attempts) tiger Feral Forest_Cell "region-1" with
+  | Stillborn _ -> attempts
+  | Viable _ -> find_stillborn (attempts + 1)
 
-(* Short token used in asset filenames, per element. Extend as needed. *)
-let short_name (element : element_id) : string =
-  match element with
-  | "Standard Wood Qi" -> "Wood"
-  | "Standard Water Qi" -> "Water"
-  | "Standard Fire Qi" -> "Fire"
-  | "Standard Earth Qi" -> "Earth"
-  | "Standard Metal Qi" -> "Metal"
-  | "Standard Wind Qi" -> "Wind"
-  | "Standard Lightning Qi" -> "Lightning"
-  | other -> other (* fallback: use the raw element string *)
-
-let asset_filename_for (species_name : string) (primary : element_id)
-    (secondary : element_id option) : string =
-  match secondary with
-  | Some sec -> Printf.sprintf "%s-%s_%s.png" (short_name primary) (short_name sec) species_name
-  | None -> Printf.sprintf "%s_%s.png" (short_name primary) species_name
-
-(* Forces BOTH elements instead of rolling from a biome -- bypasses
-   roll_injected_element entirely, just for this test. The real
-   generation pipeline (generate_beast/attempt_spawn) is untouched;
-   secondary_element stays None there until a real roll mechanism
-   for it is designed. *)
-let assemble_forced (id : string) (t : species_template) (disp : disposition)
-    (location : string) (primary : element_id) (secondary : element_id option)
-    (stats : beast_attributes) : beast =
-  {
-    beast_id = id;
-    species = t;
-    personality = disp;
-    stats;
-    injected_element = primary;
-    secondary_element = secondary;
-    active_synergy = find_synergy t stats primary;
-    sentience = derive_sentience stats;
-    role = Transient_Wildlife;
-    is_sentient = true;
-    qi_tier = 0;
-    skill_library = [];
-    sustenance = Predation;
-    hunger = 0.0;
-    location;
-    sex = (if Random.bool () then Male else Female);
-    reproductive_status = Not_Pregnant;
-  }
+(* Condition B: alive, AND 3+ stats independently break their natural
+   cap (Perfect Specimen Overclock, Vector 2), AND the Core Crash
+   Lottery (Vector 1) also fires independently on the same roll. Uses
+   resolve_stats_diagnostic's explicit fired-flag rather than
+   inferring it from before/after equality, which would silently
+   miscount the (rare but real) case where the crash bonus rolls 0. *)
+let rec find_breakthrough attempts =
+  let stats, diag = resolve_stats_diagnostic tiger in
+  let overcapped = List.length diag.perfect_specimen_hits in
+  let core_crash_fired = diag.core_crash_stat <> None in
+  if is_viable stats && overcapped >= 3 && core_crash_fired then (attempts, stats, diag)
+  else find_breakthrough (attempts + 1)
 
 let () =
   Random.self_init ();
-  let stats = resolve_stats tiger in
-  if not (is_viable stats) then
-    print_endline "Forced tiger was stillborn (a stat rolled 0) -- no asset assigned, as designed."
-  else begin
-    let b =
-      assemble_forced "forced-wood-water" tiger Calculating "region-1"
-        "Standard Wood Qi" (Some "Standard Water Qi") stats
-    in
-    Printf.printf "STR=%d STA=%d SPD=%d INT=%d WIS=%d CRE=%d RES=%d\n"
-      b.stats.strength b.stats.stamina b.stats.speed b.stats.intelligence
-      b.stats.wisdom b.stats.creativity b.stats.restraint;
-    Printf.printf "Primary element: %s\n" b.injected_element;
-    Printf.printf "Secondary element: %s\n"
-      (match b.secondary_element with Some e -> e | None -> "(none)");
-    (match b.active_synergy with
-     | Some s -> Printf.printf "Synergy: %s\n" s.synergy_name
-     | None -> print_endline "Synergy: none");
-    let filename = asset_filename_for b.species.species_name b.injected_element b.secondary_element in
-    let full_path = assets_folder ^ filename in
-    Printf.printf "Asset path: %s\n" full_path;
-    Printf.printf "File exists on this machine: %b\n" (Sys.file_exists full_path)
-  end
+
+  let stillborn_count = find_stillborn 1 in
+  Printf.printf "Stillborn: %d attempts\n" stillborn_count;
+
+  let breakthrough_count, stats, diag = find_breakthrough 1 in
+  Printf.printf "3-stat overcap + Core Crash Lottery: %d attempts\n" breakthrough_count;
+  Printf.printf "  STR=%d STA=%d SPD=%d INT=%d WIS=%d CRE=%d RES=%d\n"
+    stats.strength stats.stamina stats.speed stats.intelligence
+    stats.wisdom stats.creativity stats.restraint;
+  Printf.printf "  Overcapped stats: %s\n" (String.concat ", " diag.perfect_specimen_hits);
+  Printf.printf "  Core Crash Lottery hit: %s\n"
+    (match diag.core_crash_stat with Some s -> s | None -> "(none)");
+
+  (* Build the actual beast for this breakthrough roll and pull its art.
+     Forced to Wood/Water since that's the only asset that currently
+     exists -- swap this once more art is added. *)
+  let breakthrough_beast =
+    assemble_forced "breakthrough-tiger" tiger Calculating "region-1"
+      "Standard Wood Qi" (Some "Standard Water Qi") stats
+  in
+  ignore (pull_and_show_image breakthrough_beast)
