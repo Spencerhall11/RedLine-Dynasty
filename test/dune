@@ -1,9 +1,0 @@
-(executable
- (name beast_test)
- (modules beast_test)
- (libraries redline_dynasty))
-
-(executable
- (name cultivator_test)
- (modules cultivator_test)
- (libraries redline_dynasty))
