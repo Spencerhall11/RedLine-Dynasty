@@ -1,39 +1,37 @@
 
-(*define heritable traits*)
-type trait ={
-    name : string
-    potency : float;
+module TraitMap = Map.Make(String)
+
+type trait_data = {
+  potency: float;
 }
 
-(*baseline inheritance is from both parents and prune below threshold*)
+(*using a map instead of list for performance in large scale*)
+type lineage = trait_data TraitMap.t
+
 let prune_threshold = 0.05
 
-let merge_traits (p1_traits : trait list) (p2_traits : trait list) : trait list = 
-    (*reinforce common traits*)
-    let process_trait (t : trait) (other_traits : trait list) : trait =
-    match List.find_opt (fun x -> x.name = t.name) other_traits with
-    | Some match_trait ->
-        (*reinforce, take max then add slight boost*)
-        { name = t.name; potency = Float.max t.potency match_trait.potency *. 1.1}
-    | None ->
-        (*decay unique traits*)
-        { t with potency = t.potency *. 0.5}
-in
+(*merge lines *)
+let merge_lineages (p1 : lineage) (p2 : lineage) : lineage =
+    (*combine parents and boost common while decaying unique*)
+    let merge_func _key v1 v2 =
+    match v1, v2 with
+    | Some t1, Some t2 -> 
+        (* Reinforce common traits: Max of both + 10% boost *)
+        Some { potency = Float.max t1.potency t2.potency *. 1.1 }
+    | Some t1, None -> 
+        (* Decay unique traits from p1 *)
+        Some { potency = t1.potency *. 0.5 }
+    | None, Some t2 -> 
+        (* Decay unique traits from p2 *)
+        Some { potency = t2.potency *. 0.5 }
+    | None, None -> None
+    in
 
-(*process for both parents*)
-let p1_processed = List.map (fun t-> process_trait t p2_traits) p1_traits in
-let p2_processed = List.map (fun t-> process_trait t p1_traits) p2_traits in
+  let combined = TraitMap.merge merge_func p1 p2 in
 
-(*combine and filter pruned*)
-let comined = p1_processed @ p2_processed in
+  (*prune below threshold*)
+  TraitMap.filter (fun _ t -> t.potency >= prune_threshold) combined
 
-let unique = List.fold_left (fun acc t ->
-    match List.find_opt (fun x -> x.name = t.name) acc with
-    | Some existing -> 
-        if t.potency > existing.potency then
-          t :: List.filter (fun x -> x.name <> t.name) acc
-        else acc
-    | None -> t :: acc
-  ) [] combined in
-
-List.filter (fun t -> t.potency >= prune_threshold) unique
+(*convert back to list for UI*)
+let to_list (l : lineage) = 
+  TraitMap.bindings l |> List.map (fun (name, data) -> (name, data.potency))
