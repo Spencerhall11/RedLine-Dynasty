@@ -1,0 +1,5 @@
+(executable
+ (name beast_test)
+ (libraries 
+  unix 
+  redline_dynasty_lib))
