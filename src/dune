@@ -1,0 +1,3 @@
+(library
+  (name redline_dynasty_lib)
+  (modules Qi_types cultivator_generation))
