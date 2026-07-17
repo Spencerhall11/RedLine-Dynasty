@@ -1,12 +1,5 @@
 (* meridians.ml *)
 
-(*meridian state*)
-type meridian_state = {
-  current_qi: float;
-  internal_base_regen: float;
-  environmental_multiplier: float; (* efficiency *)
-  is_blocked: bool; 
-}
 
 (* regenerating the capacity *)
 let get_internal_regen (tier: int) (stage: int) : float =

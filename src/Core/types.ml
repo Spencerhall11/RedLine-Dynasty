@@ -60,6 +60,14 @@ type trait_data = {
   potency: float;
 }
 
+type ancestry_logic = {
+    fusion_stability : float;
+    inherit_rate : float;
+    mutation_threshold : float;
+}
+
+
+module TraitMap = Map.Make(String)
 (*using a map instead of list for performance in large scale*)
 type lineage = trait_data TraitMap.t
 
@@ -87,4 +95,12 @@ type stats = {
   wisdom: int;
   creativity: int;
   restraint: int;
+}
+
+(*array to store entities*)
+type entity_store = {
+  ids: string array;
+  qi_levels: float array;
+  positions: int array;
+  (* Other fields separated *)
 }

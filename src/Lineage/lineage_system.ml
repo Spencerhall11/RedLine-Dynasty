@@ -1,7 +1,4 @@
 
-module TraitMap = Map.Make(String)
-
-
 let prune_threshold = 0.05
 
 (*merge lines *)
