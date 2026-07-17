@@ -1,12 +1,6 @@
 
 module TraitMap = Map.Make(String)
 
-type trait_data = {
-  potency: float;
-}
-
-(*using a map instead of list for performance in large scale*)
-type lineage = trait_data TraitMap.t
 
 let prune_threshold = 0.05
 

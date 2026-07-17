@@ -1,18 +1,4 @@
 
-(*define the ability*)
-type effect =
-    | Damage_Qi of float
-    | Drain_Qi of float
-    | Buff_Regen of float
-    | Grid_Lock of int 
-
-(*technique*)
-type ability ={
-    name : string;
-    qi_cost : float;
-    effects: effect list;
-}
-
 
 (*dispatch, apply logic to entity and environment*)
 let execute_ability (abil: ability) (user_qi: float) (target: meridian_state) : (float * meridian_state) option =

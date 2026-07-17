@@ -1,8 +1,3 @@
-(*define environment influence*)
-type environmental_data = {
-  element_affinity: string; (* e.g., "Ice" *)
-  qi_concentration: float;  (* 0.0 to 1.0 scale *)
-}
 
 let mutate (env : environmental_data) (lineage : Lineage.lineage) : Lineage.lineage =
     (* Baseline Drift (Entropy) *)

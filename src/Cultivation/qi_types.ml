@@ -1,16 +1,5 @@
 (*types of Qi*)
 
-type qi_category = Foundational | Biological | Esoteric | Abstract
-
-type qi_type = {
-    id : int;
-    name : string;
-    category : qi_category;
-    stability_base : float;
-    spawn_weight : float;
-}
-
-
 (*full list of the types based on category*)
 let qi_types = [
   {id = 1; name = "Fire"; category = Foundational; stability_base = 0.8; spawn_weight = 1.0};

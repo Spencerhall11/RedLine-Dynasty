@@ -1,15 +1,5 @@
 (*cultivator generator*)
 
-type stats = {
-  strength: int;
-  stamina: int;
-  speed: int;
-  intelligence: int;
-  wisdom: int;
-  creativity: int;
-  restraint: int;
-}
-
 (* Simplified using a normal distribution *)
 let generate_stats (seed: int) : stats =
     let rng = Random.State.make [|seed|] in

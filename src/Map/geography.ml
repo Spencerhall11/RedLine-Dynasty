@@ -1,34 +1,5 @@
-(* src/geography.ml *)
-
+open Core
 open Types
-
-type nation = {
-  nation_id : string;      
-  nation_name : string;    
-}
-
-type province = {
-  province_id : string;     
-  province_name : string;   
-  nation_id : string;       
-  area_sq_km : float;       
-}
-
-type tile = {
-  tile_id : string;         
-  province_id : string;    
-  cell_type : cell_type;   
-  latitude : float;         
-  longitude : float;        
-}
-
-type population_center = {
-  center_id : string;       
-  center_name : string;    
-  kind : string;            
-  population : int;         
-  tile_id : string;         
-}
 
 let nation_registry : (string, nation) Hashtbl.t = Hashtbl.create 250
 let province_registry : (string, province) Hashtbl.t = Hashtbl.create 600
