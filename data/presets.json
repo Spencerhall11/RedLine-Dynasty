@@ -24,8 +24,8 @@
     "qi_setup": {
       "custom_technique_name": "Unbreakable Ironblood Aegis Metal Qi",
       "individual_affinities": [
-        { "qi_id": 12, "tier": "SSS" },
-        { "qi_id": 15, "tier": "S" }
+        { "qi_id": 5, "tier": "SSS" },
+        { "qi_id": 2, "tier": "S" }
       ]
     }
   },
@@ -33,15 +33,33 @@
     "input_name": "2B",
     "starting_rank": 2,
     "forced_stats": {
-      "strength": 700, "stamina": 800, "speed": 600,
+      "strength": 500, "stamina": 800, "speed": 600,
       "intelligence": 100, "wisdom": 300, "creativity": 50, "restraint": 999
     },
     "qi_setup": {
-      "custom_technique_name": "Needs a name and proper affinities",
+      "custom_technique_name": "Yorha Arms Mastery Qi",
       "individual_affinities": [
-        { "qi_id": 12, "tier": "SSS" },
-        { "qi_id": 15, "tier": "S" }
+        { "qi_id": 23, "tier": "SSS" },
+        { "qi_id": 24, "tier": "S" }
       ]
     }
+  },
+  {
+    "input_name": "Fediel",
+    "starting_rank": 4,
+    "forced_stats": {
+      "strength": 600, "stamina": 600, "speed": 600,
+      "intelligence": 1000, "wisdom": 1000, "creativity": 1200, "restraint": 600
+    },
+    "qi_setup": {
+      "custom_technique_name": "Eternal Black Dragon Demonic Qi",
+      "individual_affinities": [
+        { "qi_id": 22, "tier": "SSS" },
+        { "qi_id": 25, "tier": "SSS" }
+      ]
+    }
+  },
+  {
+    
   }
 ]
