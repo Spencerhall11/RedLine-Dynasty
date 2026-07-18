@@ -1,4 +1,4 @@
-open Types
+open Core.Types
 
 let registry_array = Array.of_list Qi_types.qi_types 
 

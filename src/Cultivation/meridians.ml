@@ -1,5 +1,4 @@
-(* meridians.ml *)
-
+open Core.Types
 
 (* regenerating the capacity *)
 let get_internal_regen (tier: int) (stage: int) : float =

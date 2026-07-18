@@ -1,4 +1,4 @@
-open Types
+open Core.Types
 
 let iron_flesh_tiger : species_template =
   {

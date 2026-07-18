@@ -1,4 +1,5 @@
 (*types of Qi*)
+open Core.Types
 
 (*full list of the types based on category*)
 let qi_types = [

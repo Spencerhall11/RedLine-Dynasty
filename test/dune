@@ -1,5 +1,3 @@
 (executable
- (name beast_test)
- (libraries 
-  unix 
-  redline_dynasty_lib))
+ (name stress_test)
+ (libraries core cultivation lineage unix))

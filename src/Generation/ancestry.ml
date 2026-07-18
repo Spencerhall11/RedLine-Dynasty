@@ -1,5 +1,4 @@
-open Types
-
+open Core.Types
 
 let derive_child_ancestry (parent1 : ancestry) (parent2 : ancestry) : ancestry =
     (* Logic for combining phyla or flesh-types *)

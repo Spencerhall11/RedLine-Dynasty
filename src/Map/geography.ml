@@ -1,5 +1,4 @@
-open Core
-open Types
+open Core.Types
 
 let nation_registry : (string, nation) Hashtbl.t = Hashtbl.create 250
 let province_registry : (string, province) Hashtbl.t = Hashtbl.create 600
@@ -89,61 +88,86 @@ let load_nations path =
   let ic = open_in path in
   try
     ignore (input_line ic); 
-    while true do
-      let line = input_line ic in
-      match parse_csv_line line with
-      | id :: name :: _ -> register_nation id name
-      | _ -> ()
-    done
-  with End_of_file -> close_in ic
+    begin try
+      while true do
+        let line = input_line ic in
+        match parse_csv_line line with
+        | id :: name :: _ -> register_nation id name
+        | _ -> ()
+      done
+    with End_of_file -> () end;
+    close_in ic
+  with e ->
+    close_in_no_err ic;
+    raise e
 
 let load_provinces path =
   let ic = open_in path in
   try
     ignore (input_line ic);
-    while true do
-      let line = input_line ic in
-      match parse_csv_line line with
-      | id :: name :: nid :: area :: _ -> register_province id name nid area
-      | _ -> ()
-    done
-  with End_of_file -> close_in ic
+    begin try
+      while true do
+        let line = input_line ic in
+        match parse_csv_line line with
+        | id :: name :: nid :: area :: _ -> register_province id name nid area
+        | _ -> ()
+      done
+    with End_of_file -> () end;
+    close_in ic
+  with e ->
+    close_in_no_err ic;
+    raise e
 
 let load_adjacencies path =
   let ic = open_in path in
   try
     ignore (input_line ic);
-    while true do
-      let line = input_line ic in
-      match parse_csv_line line with
-      | pid :: adjacent_pid :: _ -> register_adjacency pid adjacent_pid
-      | _ -> ()
-    done
-  with End_of_file -> close_in ic
+    begin try
+      while true do
+        let line = input_line ic in
+        match parse_csv_line line with
+        | pid :: adjacent_pid :: _ -> register_adjacency pid adjacent_pid
+        | _ -> ()
+      done
+    with End_of_file -> () end;
+    close_in ic
+  with e ->
+    close_in_no_err ic;
+    raise e
 
 let load_tiles path =
   let ic = open_in path in
   try
     ignore (input_line ic);
-    while true do
-      let line = input_line ic in
-      match parse_csv_line line with
-      | id :: pid :: biome :: lat :: lng :: _ -> register_tile id pid biome lat lng
-      | _ -> ()
-    done
-  with End_of_file -> close_in ic
+    begin try
+      while true do
+        let line = input_line ic in
+        match parse_csv_line line with
+        | id :: pid :: biome :: lat :: lng :: _ -> register_tile id pid biome lat lng
+        | _ -> ()
+      done
+    with End_of_file -> () end;
+    close_in ic
+  with e ->
+    close_in_no_err ic;
+    raise e
 
 let load_population_centers path =
   let ic = open_in path in
   try
     ignore (input_line ic);
-    while true do
-      let line = input_line ic in
-      match parse_csv_line line with
-      | id :: name :: kind :: pop :: tid :: _ -> register_population_center id name kind pop tid
-      | _ -> ()
-    done
-  with End_of_file -> close_in ic
+    begin try
+      while true do
+        let line = input_line ic in
+        match parse_csv_line line with
+        | id :: name :: kind :: pop :: tid :: _ -> register_population_center id name kind pop tid
+        | _ -> ()
+      done
+    with End_of_file -> () end;
+    close_in ic
+  with e ->
+    close_in_no_err ic;
+    raise e
 
 let bootstrap_world_map ~nations_path ~provinces_path ~adjacency_path ~tiles_path ~centers_path =
   load_nations nations_path;

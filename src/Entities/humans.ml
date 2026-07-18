@@ -1,4 +1,5 @@
 (*baseline potential for humans*)
+open Core.Types
 
 type civilian_node = {
     population_Coint : int;
