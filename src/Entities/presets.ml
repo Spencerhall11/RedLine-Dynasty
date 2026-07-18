@@ -15,6 +15,7 @@ let selection_presets : preset_character array = [|
       { qi_id = 6;  tier = S   }; (* Transcendent Lightning Root *)
     };
   }
+  (*bro i gotta add my Oshi and like 35 other presets, I might be cooked*)
   {
 
   }
