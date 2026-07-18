@@ -1,4 +1,5 @@
 (* Contains all the types *)
+open Ppx_yojson_conv_lib.Yojson_conv.Primitives
 
 (* Map related types *)
 type nation = {
@@ -80,13 +81,13 @@ type affinity_tier =
   | A
   | S
   | SS
-  | SSS
+  | SSS [@@deriving yojson]
 
 (* Maps a specific type of Qi element to its potential talent tier *)
 type qi_affinity = {
   qi_id : int;
   tier : affinity_tier;
-}
+} [@@deriving yojson]
 
 (* Lineage related *)
 type trait_data = {
@@ -111,10 +112,11 @@ type environmental_data = {
 
 (* Meridian state *)
 type meridian_state = {
-  current_qi: float;
-  internal_base_regen: float;
-  environmental_multiplier: float; (* efficiency *)
-  is_blocked: bool; 
+  current_qi               : float;
+  internal_base_regen      : float;
+  environmental_multiplier : float;
+  is_blocked               : bool;
+  lock_duration            : int; 
 }
 
 
@@ -127,17 +129,16 @@ type stats = {
   wisdom: int;
   creativity: int;
   restraint: int;
-}
+} [@@deriving yojson]
 
 (* Array to store entities *)
 type entity_store = {
   ids: string array;
   qi_levels: float array;
   positions: int array;
-  (* 
-     For the main simulation loop, an entity's element affinities are 
-     stored as a flat two-dimensional float array [| entity_index * qi_id |] 
-     or an array of float arrays mapping directly to multipliers for lightning-fast lookups.
+  (* For the main simulation loop, an entity's element affinities are 
+      stored as a flat two-dimensional float array [| entity_index * qi_id |] 
+      or an array of float arrays mapping directly to multipliers for lightning-fast lookups.
   *)
   affinity_multipliers : float array array; 
 }
@@ -145,16 +146,15 @@ type entity_store = {
 type preset_qi_assignment = {
   (* The user-facing unique flair name for this character's setup *)
   custom_technique_name : string; 
-  (* 
-     Allows the preset list to manually specify exactly which elements this character 
-     excels at without restriction. Unlisted elements default to untalented (E-tier) baseline values.
+  (* Allows the preset list to manually specify exactly which elements this character 
+      excels at without restriction. Unlisted elements default to untalented (E-tier) baseline values.
   *)
   individual_affinities : qi_affinity list;
-}
+} [@@deriving yojson]
 
 type preset_character = {
   input_name     : string;
   forced_stats   : stats;
   starting_rank  : int;
   qi_setup       : preset_qi_assignment;
-}
+} [@@deriving yojson]

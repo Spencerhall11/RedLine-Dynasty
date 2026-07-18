@@ -1,5 +1,4 @@
 (* cultivator generator *)
-open Core.Types
 open Cultivation.Qi_ranks
 
 (* Simplified using a normal distribution *)

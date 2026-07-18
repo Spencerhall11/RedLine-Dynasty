@@ -10,7 +10,7 @@ let execute_ability (abil: ability) (user_qi: float) (target: meridian_state) : 
       | Damage_Qi amount -> { state with current_qi = Float.max 0.0 (state.current_qi -. amount) }
       | Drain_Qi amount  -> { state with current_qi = Float.max 0.0 (state.current_qi -. amount) }
       | Buff_Regen amt   -> { state with internal_base_regen = state.internal_base_regen +. amt }
-      | Grid_Lock duration -> { state with is_blocked = true; lock_duration = duration }
+      | Grid_Lock duration -> ({ state with is_blocked = true; lock_duration = duration} : Core.Types.meridian_state)
     in
     let updated_target = List.fold_left apply_effect target abil.effects in
     Some (new_user_qi, updated_target)

@@ -1,4 +1,3 @@
 (library
  (name cultivation)
- (modules cultivation meridians qi_registry qi_types)
  (libraries core))

@@ -1,0 +1,47 @@
+[
+  {
+    "input_name": "Miku Hatsune",
+    "starting_rank": 5,
+    "forced_stats": {
+      "strength": 140, "stamina": 450, "speed": 560,
+      "intelligence": 650, "wisdom": 400, "creativity": 650, "restraint": 350
+    },
+    "qi_setup": {
+      "custom_technique_name": "Song of Divine Creation Sound Qi",
+      "individual_affinities": [
+        { "qi_id": 27, "tier": "SSS" },
+        { "qi_id": 6, "tier": "S" }
+      ]
+    }
+  },
+  {
+    "input_name": "Prinz Eugen",
+    "starting_rank": 3,
+    "forced_stats": {
+      "strength": 600, "stamina": 2500, "speed": 300,
+      "intelligence": 500, "wisdom": 300, "creativity": 150, "restraint": 999
+    },
+    "qi_setup": {
+      "custom_technique_name": "Unbreakable Ironblood Aegis Metal Qi",
+      "individual_affinities": [
+        { "qi_id": 12, "tier": "SSS" },
+        { "qi_id": 15, "tier": "S" }
+      ]
+    }
+  },
+  {
+    "input_name": "2B",
+    "starting_rank": 2,
+    "forced_stats": {
+      "strength": 700, "stamina": 800, "speed": 600,
+      "intelligence": 100, "wisdom": 300, "creativity": 50, "restraint": 999
+    },
+    "qi_setup": {
+      "custom_technique_name": "Needs a name and proper affinities",
+      "individual_affinities": [
+        { "qi_id": 12, "tier": "SSS" },
+        { "qi_id": 15, "tier": "S" }
+      ]
+    }
+  }
+]

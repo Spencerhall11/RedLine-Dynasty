@@ -1,3 +1,5 @@
 (library
  (name core)
- (modules types))
+ (modules types presets_loader)
+ (preprocess (pps ppx_yojson_conv))
+ (libraries yojson))
