@@ -126,6 +126,13 @@ type inhuman_data = {
   corruption_idx : float;    (* Heart-Demon susceptibility *)
 } [@@deriving yojson]
 
+
+type sex = 
+  | Male 
+  | Female 
+  | Androgynous (* Used for Synthetic/Construct types *)
+[@@deriving yojson]
+
 type ancestry =
   | Human
   | Hybrid of string * float
@@ -167,7 +174,9 @@ type preset_qi_assignment = {
 
 type preset_character = {
   input_name     : string;
-  forced_stats   : stats;
   starting_rank  : int;
+  sex            : sex;          
+  ancestry       : ancestry;
+  forced_stats   : stats;
   qi_setup       : preset_qi_assignment;
 } [@@deriving yojson]

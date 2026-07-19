@@ -2,6 +2,7 @@
   {
     "input_name": "Miku Hatsune",
     "starting_rank": 5,
+    "sex": "Female",
     "ancestry": { "Human": null },
     "forced_stats": {
       "strength": 140, "stamina": 450, "speed": 560,
@@ -18,6 +19,7 @@
   {
     "input_name": "Prinz Eugen",
     "starting_rank": 3,
+    "sex": "Female",
     "ancestry": { 
       "Inhuman": {
         "tag": "Kansen",
@@ -40,6 +42,7 @@
   {
     "input_name": "2B",
     "starting_rank": 2,
+    "sex": "Female",
     "ancestry": {
       "Inhuman": {
         "tag": "Cyborg",
@@ -62,10 +65,11 @@
   {
     "input_name": "Fediel",
     "starting_rank": 10,
+    "sex": "Female",
     "ancestry": { "Sovereign_Flesh": null },
     "forced_stats": {
-    "strength": 9999, "stamina": 9999, "speed": 5000,
-    "intelligence": 9999, "wisdom": 9999, "creativity": 9999, "restraint": 999
+      "strength": 9999, "stamina": 9999, "speed": 5000,
+      "intelligence": 9999, "wisdom": 9999, "creativity": 9999, "restraint": 999
     },
     "qi_setup": {
       "custom_technique_name": "Terminal Void-Collapse ",
@@ -78,6 +82,7 @@
   {
     "input_name": "AjisaiBunni",
     "starting_rank": 1,
+    "sex": "Female",
     "ancestry": {
       "Hybrid": ["Rabbit", 0.75]
     },

@@ -25,14 +25,14 @@ let generate_stats (seed: int) : stats =
     Uses an explicit internal pool from 0 to 9999 to balance standard versus rare entities. *)
 let roll_affinity_tier (rng : Random.State.t) : affinity_tier =
   let roll = Random.State.int rng 10000 in
-  if roll < 6000 then E        (* 60.0% Clogged meridians / Untalented *)
-  else if roll < 8500 then D   (* 25.0% Low-grade mortal baseline *)
-  else if roll < 9500 then C   (* 10.0% Ordinary common cultivator *)
-  else if roll < 9850 then B   (*  3.5% Outer sect core disciple *)
-  else if roll < 9960 then A   (*  1.1% Inner sect genius talent *)
-  else if roll < 9990 then S   (*  0.3% Heavenly Dao spirit root *)
-  else if roll < 9998 then SS  (*  0.08% Transcendent lineage anomaly *)
-  else SSS                     (*  0.02% Primordial sovereign reincarnation *)
+  if roll < 5000 then E        (* Clogged meridians / Untalented *)
+  else if roll < 6500 then D   (* Low-grade mortal baseline *)
+  else if roll < 7500 then C   (* Ordinary common cultivator *)
+  else if roll < 8850 then B   (* Outer sect core disciple *)
+  else if roll < 9600 then A   (* Inner sect genius talent *)
+  else if roll < 9900 then S   (* Heavenly Dao spirit root *)
+  else if roll < 9950 then SS  (* Transcendent lineage anomaly *)
+  else SSS                     (* Primordial sovereign reincarnation *)
 
 (** Iterates over every valid Qi element ID globally present in the world configuration,
     independently mapping each to a rolled raw affinity structure. *)
