@@ -2,6 +2,7 @@
   {
     "input_name": "Miku Hatsune",
     "starting_rank": 5,
+    "ancestry": { "Human": null },
     "forced_stats": {
       "strength": 140, "stamina": 450, "speed": 560,
       "intelligence": 650, "wisdom": 400, "creativity": 650, "restraint": 350
@@ -17,6 +18,13 @@
   {
     "input_name": "Prinz Eugen",
     "starting_rank": 3,
+    "ancestry": { 
+      "Inhuman": {
+        "tag": "Kansen",
+        "firmware_ver": 2.5,
+        "corruption_idx": 0.0
+      }
+    },
     "forced_stats": {
       "strength": 600, "stamina": 2500, "speed": 300,
       "intelligence": 500, "wisdom": 300, "creativity": 150, "restraint": 999
@@ -32,6 +40,13 @@
   {
     "input_name": "2B",
     "starting_rank": 2,
+    "ancestry": {
+      "Inhuman": {
+        "tag": "Cyborg",
+        "firmware_ver": 9.9,
+        "corruption_idx": 0.0
+      }
+    },
     "forced_stats": {
       "strength": 500, "stamina": 800, "speed": 600,
       "intelligence": 100, "wisdom": 300, "creativity": 50, "restraint": 999
@@ -46,20 +61,36 @@
   },
   {
     "input_name": "Fediel",
-    "starting_rank": 4,
+    "starting_rank": 10,
+    "ancestry": { "Sovereign_Flesh": null },
     "forced_stats": {
-      "strength": 600, "stamina": 600, "speed": 600,
-      "intelligence": 1000, "wisdom": 1000, "creativity": 1200, "restraint": 600
+    "strength": 9999, "stamina": 9999, "speed": 5000,
+    "intelligence": 9999, "wisdom": 9999, "creativity": 9999, "restraint": 999
     },
     "qi_setup": {
-      "custom_technique_name": "Eternal Black Dragon Demonic Qi",
+      "custom_technique_name": "Terminal Void-Collapse ",
       "individual_affinities": [
-        { "qi_id": 22, "tier": "SSS" },
-        { "qi_id": 25, "tier": "SSS" }
+        { "qi_id": 16, "tier": "SSS" },
+        { "qi_id": 18, "tier": "SSS" }
       ]
     }
   },
   {
-    
+    "input_name": "AjisaiBunni",
+    "starting_rank": 1,
+    "ancestry": {
+      "Hybrid": ["Rabbit", 0.75]
+    },
+    "forced_stats": {
+      "strength": 60, "stamina": 60, "speed": 140,
+      "intelligence": 70, "wisdom": 40, "creativity": 80, "restraint": 10
+    },
+    "qi_setup": {
+      "custom_technique_name": "Black Rabbit Cyber Malware ",
+      "individual_affinities": [
+        { "qi_id": 22, "tier": "S" },
+        { "qi_id": 10, "tier": "B" }
+      ]
+    }
   }
 ]

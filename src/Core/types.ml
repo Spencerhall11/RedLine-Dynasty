@@ -94,12 +94,6 @@ type trait_data = {
   potency: float;
 }
 
-type ancestry_logic = {
-  fusion_stability : float;
-  inherit_rate : float;
-  mutation_threshold : float;
-}
-
 module TraitMap = Map.Make(String)
 (* Using a map instead of list for performance in large scale *)
 type lineage = trait_data TraitMap.t
@@ -119,6 +113,25 @@ type meridian_state = {
   lock_duration            : int; 
 }
 
+type ancestry =
+  | Human
+  | Hybrid of string * float  (* Phylum * Stability *)
+  | Inhuman of string * int   (* Type_Tag * Corruption_Level *)
+  | Sovereign_Flesh
+[@@deriving yojson]
+
+type inhuman_data = {
+  tag            : string;   (* "Kansen", "Cyborg", "Demon" *)
+  firmware_ver   : float;    (* Compatibility level with external data grids *)
+  corruption_idx : float;    (* Heart-Demon susceptibility *)
+} [@@deriving yojson]
+
+type ancestry =
+  | Human
+  | Hybrid of string * float
+  | Inhuman of inhuman_data
+  | Sovereign_Flesh
+[@@deriving yojson]
 
 (* Stats for generation *)
 type stats = {
