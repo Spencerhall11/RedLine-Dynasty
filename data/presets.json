@@ -97,5 +97,22 @@
         { "qi_id": 10, "tier": "B" }
       ]
     }
+  },
+  {
+    "input_name": "Xu Jingming",
+    "starting_rank": 1,
+    "sex": "Male",
+    "ancestry": { "Human": null },
+    "forced_stats": {
+      "strength": 250, "stamina": 150, "speed": 300,
+      "intelligence": 100, "wisdom": 100, "creativity": 100, "restraint": 100
+    },
+    "qi_setup": {
+      "custom_technique_name": " Divine Lightning ",
+      "individual_affinities": [
+        { "qi_id": 6, "tier": "SSS" },
+        { "qi_id": 9, "tier": "SS" }
+      ]
+    }
   }
 ]
