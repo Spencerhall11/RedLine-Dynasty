@@ -1,3 +1,7 @@
 (executable
  (name main)
- (libraries core cultivation))
+ (libraries core cultivation raylib))
+
+(executable
+ (name map_viewer)
+ (libraries core cultivation raylib geography))

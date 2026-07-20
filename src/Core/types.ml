@@ -45,7 +45,6 @@ type population_center = {
   tile_id : string;         
 }
 
-
 (* Qi and ability related *)
 type qi_effect =
   | Damage_Qi of float
@@ -113,26 +112,20 @@ type meridian_state = {
   lock_duration            : int; 
 }
 
-type ancestry =
-  | Human
-  | Hybrid of string * float  (* Phylum * Stability *)
-  | Inhuman of string * int   (* Type_Tag * Corruption_Level *)
-  | Sovereign_Flesh
-[@@deriving yojson]
-
-type inhuman_data = {
-  tag            : string;   (* "Kansen", "Cyborg", "Demon" *)
-  firmware_ver   : float;    (* Compatibility level with external data grids *)
-  corruption_idx : float;    (* Heart-Demon susceptibility *)
-} [@@deriving yojson]
-
-
 type sex = 
   | Male 
   | Female 
   | Androgynous (* Used for Synthetic/Construct types *)
 [@@deriving yojson]
 
+(* CRITICAL ORDERING: inhuman_data must be compiled before ancestry uses it *)
+type inhuman_data = {
+  tag            : string;   (* "Kansen", "Cyborg", "Demon" *)
+  firmware_ver   : float;    (* Compatibility level with external data grids *)
+  corruption_idx : float;    (* Heart-Demon susceptibility *)
+} [@@deriving yojson]
+
+(* Deduplicated clean variant layout *)
 type ancestry =
   | Human
   | Hybrid of string * float
@@ -156,19 +149,11 @@ type entity_store = {
   ids: string array;
   qi_levels: float array;
   positions: int array;
-  (* For the main simulation loop, an entity's element affinities are 
-      stored as a flat two-dimensional float array [| entity_index * qi_id |] 
-      or an array of float arrays mapping directly to multipliers for lightning-fast lookups.
-  *)
   affinity_multipliers : float array array; 
 }
 
 type preset_qi_assignment = {
-  (* The user-facing unique flair name for this character's setup *)
   custom_technique_name : string; 
-  (* Allows the preset list to manually specify exactly which elements this character 
-      excels at without restriction. Unlisted elements default to untalented (E-tier) baseline values.
-  *)
   individual_affinities : qi_affinity list;
 } [@@deriving yojson]
 

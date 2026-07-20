@@ -1,3 +1,4 @@
+(* tools/audit_tool.ml *)
 open Core.Types
 open Generation.Cultivator_generation
 
@@ -9,8 +10,8 @@ type audit_record = {
   mutable best_sum : int;
 }
 
-(* Pre-convert to array for O(1) selection *)
-let qi_array = Array.of_list qi_types
+(* Pull directly from your newly exposed Cultivation list *)
+let qi_array = Array.of_list Cultivation.qi_types
 let registry_size = Array.length qi_array
 
 let audit_results = 
@@ -21,7 +22,7 @@ let audit_results =
     successes = 0;
     best_sum = 0;
     best_stats = None
-  }) qi_types;
+  }) Cultivation.qi_types;
   map
 
 let run_stress_test pop_size =
@@ -30,7 +31,6 @@ let run_stress_test pop_size =
   let start_time = Unix.gettimeofday () in
   
   for _ = 1 to pop_size do
-    (* Use the pre-indexed array for O(1) access *)
     let qi = qi_array.(Random.int registry_size) in
     let record = Hashtbl.find audit_results qi.name in
     
@@ -39,7 +39,7 @@ let run_stress_test pop_size =
       record.stillborns <- record.stillborns + 1
     else (
       record.successes <- record.successes + 1;
-      let candidate_stats = generate_stats () in 
+      let candidate_stats = generate_stats (Random.bits ()) in 
       let sum = (candidate_stats.strength + candidate_stats.stamina + 
                  candidate_stats.speed + candidate_stats.intelligence + 
                  candidate_stats.wisdom + candidate_stats.creativity + 

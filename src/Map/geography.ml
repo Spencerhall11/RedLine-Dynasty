@@ -98,7 +98,7 @@ let load_nations path =
     with End_of_file -> () end;
     close_in ic
   with e ->
-    close_in_no_err ic;
+    close_in_noerr ic;
     raise e
 
 let load_provinces path =
@@ -115,7 +115,7 @@ let load_provinces path =
     with End_of_file -> () end;
     close_in ic
   with e ->
-    close_in_no_err ic;
+    close_in_noerr ic;
     raise e
 
 let load_adjacencies path =
@@ -132,7 +132,7 @@ let load_adjacencies path =
     with End_of_file -> () end;
     close_in ic
   with e ->
-    close_in_no_err ic;
+    close_in_noerr ic;
     raise e
 
 let load_tiles path =
@@ -149,7 +149,7 @@ let load_tiles path =
     with End_of_file -> () end;
     close_in ic
   with e ->
-    close_in_no_err ic;
+    close_in_noerr ic;
     raise e
 
 let load_population_centers path =
@@ -166,7 +166,7 @@ let load_population_centers path =
     with End_of_file -> () end;
     close_in ic
   with e ->
-    close_in_no_err ic;
+    close_in_noerr ic;
     raise e
 
 let bootstrap_world_map ~nations_path ~provinces_path ~adjacency_path ~tiles_path ~centers_path =

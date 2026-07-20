@@ -1,4 +1,5 @@
-(* cultivator generator *)
+(* src/Generation/cultivator_generation.ml *)
+open Core.Types
 open Cultivation.Qi_ranks
 
 (* Simplified using a normal distribution *)
@@ -63,6 +64,7 @@ let generate_cultivator (seed : int) (total_elements : int) : stats * qi_affinit
   in
   
   let raw_talents = generate_raw_talents rng total_elements in
-  let runtime_multipliers = Cultivation.Qi_ranks.compile_individual_affinities total_elements raw_talents in
+  (* Adjusted here: calling compile_individual_affinities directly since Qi_ranks is opened *)
+  let runtime_multipliers = compile_individual_affinities total_elements raw_talents in
   
   (stats, raw_talents, runtime_multipliers)
