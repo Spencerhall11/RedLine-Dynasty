@@ -114,5 +114,21 @@
         { "qi_id": 9, "tier": "SS" }
       ]
     }
+  },
+  {
+    "input_name": "Leon Askin",
+    "starting_rank": 1,
+    "sex": "Male",
+    "ancestry": { "Human": null },
+    "forced_stats": {
+      "strength": 450, "stamina": 450, "speed": 450,
+      "intelligence": 100, "wisdom": 100, "creativity": 10, "restraint": 100
+    },
+    "qi_setup": {
+      "custom_technique_name": " VF Water Manipulation ",
+      "individual_affinities": [
+        { "qi_id": 2, "tier": "SS" }
+      ]
+    }
   }
 ]
